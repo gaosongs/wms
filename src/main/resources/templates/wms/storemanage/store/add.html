@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh" xmlns:th="http://www.thymeleaf.org" >
+<head>
+    <th:block th:include="include :: header('新增【请填写功能名称】')" />
+</head>
+<body class="white-bg">
+    <div class="wrapper wrapper-content animated fadeInRight ibox-content">
+        <form class="form-horizontal m" id="form-store-add">
+            <div class="form-group">    
+                <label class="col-sm-3 control-label">货物名称：</label>
+                <div class="col-sm-8">
+                    <input name="sname" class="form-control" type="text" required>
+                </div>
+            </div>
+            <div class="form-group">    
+                <label class="col-sm-3 control-label">货物数量：</label>
+                <div class="col-sm-8">
+                    <input name="snum" class="form-control" type="text" required>
+                </div>
+            </div>
+            <div class="form-group">    
+                <label class="col-sm-3 control-label">货物类型：</label>
+                <div class="col-sm-8">
+                    <select name="stype" class="form-control m-b" required>
+                        <option value="">所有</option>
+                    </select>
+                    <span class="help-block m-b-none"><i class="fa fa-info-circle"></i> 代码生成请选择字典属性</span>
+                </div>
+            </div>
+            <div class="form-group">    
+                <label class="col-sm-3 control-label">库存货物状态(1:存在,0:不存在)：</label>
+                <div class="col-sm-8">
+                    <input name="sstate" class="form-control" type="text" required>
+                </div>
+            </div>
+            <div class="form-group">    
+                <label class="col-sm-3 control-label">储位编号：</label>
+                <div class="col-sm-8">
+                    <input name="lid" class="form-control" type="text" required>
+                </div>
+            </div>
+            <div class="form-group">    
+                <label class="col-sm-3 control-label">入库编号：</label>
+                <div class="col-sm-8">
+                    <input name="inid" class="form-control" type="text" required>
+                </div>
+            </div>
+        </form>
+    </div>
+    <th:block th:include="include :: footer" />
+    <script type="text/javascript">
+        var prefix = ctx + "system/store"
+        $("#form-store-add").validate({
+            focusCleanup: true
+        });
+
+        function submitHandler() {
+            if ($.validate.form()) {
+                $.operate.save(prefix + "/add", $('#form-store-add').serialize());
+            }
+        }
+    </script>
+</body>
+</html>
