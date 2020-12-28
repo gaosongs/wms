@@ -1,47 +1,49 @@
-package com.ruoyi.project.system.store.service;
+package com.ruoyi.project.wms.outstoremanage.trans.service;
 
-import com.ruoyi.project.system.store.domain.TInStore;
+
+import com.ruoyi.project.wms.outstoremanage.trans.domain.TTrans;
+
 import java.util.List;
 
 /**
  * 【请填写功能名称】Service接口
  * 
  * @author ruoyi
- * @date 2020-12-26
+ * @date 2020-12-28
  */
-public interface ITInStoreService 
+public interface ITTransService 
 {
     /**
      * 查询【请填写功能名称】
      * 
-     * @param inid 【请填写功能名称】ID
+     * @param tid 【请填写功能名称】ID
      * @return 【请填写功能名称】
      */
-    public TInStore selectTInStoreById(Integer inid);
+    public TTrans selectTTransById(Integer tid);
 
     /**
      * 查询【请填写功能名称】列表
      * 
-     * @param tInStore 【请填写功能名称】
+     * @param tTrans 【请填写功能名称】
      * @return 【请填写功能名称】集合
      */
-    public List<TInStore> selectTInStoreList(TInStore tInStore);
+    public List<TTrans> selectTTransList(TTrans tTrans);
 
     /**
      * 新增【请填写功能名称】
      * 
-     * @param tInStore 【请填写功能名称】
+     * @param tTrans 【请填写功能名称】
      * @return 结果
      */
-    public int insertTInStore(TInStore tInStore);
+    public int insertTTrans(TTrans tTrans);
 
     /**
      * 修改【请填写功能名称】
      * 
-     * @param tInStore 【请填写功能名称】
+     * @param tTrans 【请填写功能名称】
      * @return 结果
      */
-    public int updateTInStore(TInStore tInStore);
+    public int updateTTrans(TTrans tTrans);
 
     /**
      * 批量删除【请填写功能名称】
@@ -49,13 +51,13 @@ public interface ITInStoreService
      * @param ids 需要删除的数据ID
      * @return 结果
      */
-    public int deleteTInStoreByIds(String ids);
+    public int deleteTTransByIds(String ids);
 
     /**
      * 删除【请填写功能名称】信息
      * 
-     * @param inid 【请填写功能名称】ID
+     * @param tid 【请填写功能名称】ID
      * @return 结果
      */
-    public int deleteTInStoreById(Integer inid);
+    public int deleteTTransById(Integer tid);
 }
