@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ruoyi.project.wms.instoremanage.order.mapper.TOrderMapper">
+    
+    <resultMap type="TOrder" id="TOrderResult">
+        <result property="oid"    column="oid"    />
+        <result property="oname"    column="oname"    />
+        <result property="otype"    column="otype"    />
+        <result property="onum"    column="onum"    />
+        <result property="ocaddress"    column="ocaddress"    />
+        <result property="oaddress"    column="oaddress"    />
+        <result property="otime"    column="otime"    />
+        <result property="cid"    column="cid"    />
+    </resultMap>
+
+    <sql id="selectTOrderVo">
+        select oid, oname, otype, onum, ocaddress, oaddress, otime, cid from t_order
+    </sql>
+
+    <select id="selectTOrderList" parameterType="TOrder" resultMap="TOrderResult">
+        <include refid="selectTOrderVo"/>
+        <where>  
+            <if test="oname != null  and oname != ''"> and oname like concat('%', #{oname}, '%')</if>
+            <if test="otype != null  and otype != ''"> and otype = #{otype}</if>
+            <if test="onum != null "> and onum = #{onum}</if>
+            <if test="ocaddress != null  and ocaddress != ''"> and ocaddress = #{ocaddress}</if>
+            <if test="oaddress != null  and oaddress != ''"> and oaddress = #{oaddress}</if>
+            <if test="otime != null "> and otime = #{otime}</if>
+            <if test="cid != null "> and cid = #{cid}</if>
+        </where>
+    </select>
+    
+    <select id="selectTOrderById" parameterType="Integer" resultMap="TOrderResult">
+        <include refid="selectTOrderVo"/>
+        where oid = #{oid}
+    </select>
+        
+    <insert id="insertTOrder" parameterType="TOrder" useGeneratedKeys="true" keyProperty="oid">
+        insert into t_order
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="oname != null  and oname != ''">oname,</if>
+            <if test="otype != null  and otype != ''">otype,</if>
+            <if test="onum != null ">onum,</if>
+            <if test="ocaddress != null  and ocaddress != ''">ocaddress,</if>
+            <if test="oaddress != null  and oaddress != ''">oaddress,</if>
+            <if test="otime != null ">otime,</if>
+            <if test="cid != null ">cid,</if>
+         </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="oname != null  and oname != ''">#{oname},</if>
+            <if test="otype != null  and otype != ''">#{otype},</if>
+            <if test="onum != null ">#{onum},</if>
+            <if test="ocaddress != null  and ocaddress != ''">#{ocaddress},</if>
+            <if test="oaddress != null  and oaddress != ''">#{oaddress},</if>
+            <if test="otime != null ">#{otime},</if>
+            <if test="cid != null ">#{cid},</if>
+         </trim>
+    </insert>
+
+    <update id="updateTOrder" parameterType="TOrder">
+        update t_order
+        <trim prefix="SET" suffixOverrides=",">
+            <if test="oname != null  and oname != ''">oname = #{oname},</if>
+            <if test="otype != null  and otype != ''">otype = #{otype},</if>
+            <if test="onum != null ">onum = #{onum},</if>
+            <if test="ocaddress != null  and ocaddress != ''">ocaddress = #{ocaddress},</if>
+            <if test="oaddress != null  and oaddress != ''">oaddress = #{oaddress},</if>
+            <if test="otime != null ">otime = #{otime},</if>
+            <if test="cid != null ">cid = #{cid},</if>
+        </trim>
+        where oid = #{oid}
+    </update>
+
+    <delete id="deleteTOrderById" parameterType="Integer">
+        delete from t_order where oid = #{oid}
+    </delete>
+
+    <delete id="deleteTOrderByIds" parameterType="String">
+        delete from t_order where oid in 
+        <foreach item="oid" collection="array" open="(" separator="," close=")">
+            #{oid}
+        </foreach>
+    </delete>
+    
+</mapper>
