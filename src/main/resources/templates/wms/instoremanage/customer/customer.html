@@ -17,7 +17,9 @@
                             <li>
                                 <p>客户类型：</p>
                                 <select name="ctype" th:with="type=${@dict.getType('')}">
-                                    <option value="">所有</option>
+                                    <option value="大型">大型</option>
+                                    <option value="中型">中型</option>
+                                    <option value="小型">小型</option>
                                     <option th:each="dict : ${type}" th:text="${dict.dictLabel}" th:value="${dict.dictValue}"></option>
                                 </select>
                             </li>
