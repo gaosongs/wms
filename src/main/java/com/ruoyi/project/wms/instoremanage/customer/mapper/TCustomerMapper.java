@@ -1,7 +1,6 @@
-package com.ruoyi.project.wms.basedata.customer.mapper;
+package com.ruoyi.project.wms.instoremanage.customer.mapper;
 
-
-import com.ruoyi.project.wms.basedata.customer.domain.WmsCustomer;
+import com.ruoyi.project.wms.instoremanage.customer.domain.TCustomer;
 
 import java.util.List;
 
@@ -9,9 +8,9 @@ import java.util.List;
  * 【请填写功能名称】Mapper接口
  * 
  * @author ruoyi
- * @date 2020-12-25
+ * @date 2020-12-28
  */
-public interface WmsCustomerMapper 
+public interface TCustomerMapper 
 {
     /**
      * 查询【请填写功能名称】
@@ -19,31 +18,31 @@ public interface WmsCustomerMapper
      * @param cid 【请填写功能名称】ID
      * @return 【请填写功能名称】
      */
-    public WmsCustomer selectWmsCustomerById(Integer cid);
+    public TCustomer selectTCustomerById(Integer cid);
 
     /**
      * 查询【请填写功能名称】列表
      * 
-     * @param wmsCustomer 【请填写功能名称】
+     * @param tCustomer 【请填写功能名称】
      * @return 【请填写功能名称】集合
      */
-    public List<WmsCustomer> selectWmsCustomerList(WmsCustomer wmsCustomer);
+    public List<TCustomer> selectTCustomerList(TCustomer tCustomer);
 
     /**
      * 新增【请填写功能名称】
      * 
-     * @param wmsCustomer 【请填写功能名称】
+     * @param tCustomer 【请填写功能名称】
      * @return 结果
      */
-    public int insertWmsCustomer(WmsCustomer wmsCustomer);
+    public int insertTCustomer(TCustomer tCustomer);
 
     /**
      * 修改【请填写功能名称】
      * 
-     * @param wmsCustomer 【请填写功能名称】
+     * @param tCustomer 【请填写功能名称】
      * @return 结果
      */
-    public int updateWmsCustomer(WmsCustomer wmsCustomer);
+    public int updateTCustomer(TCustomer tCustomer);
 
     /**
      * 删除【请填写功能名称】
@@ -51,7 +50,7 @@ public interface WmsCustomerMapper
      * @param cid 【请填写功能名称】ID
      * @return 结果
      */
-    public int deleteWmsCustomerById(Integer cid);
+    public int deleteTCustomerById(Integer cid);
 
     /**
      * 批量删除【请填写功能名称】
@@ -59,5 +58,5 @@ public interface WmsCustomerMapper
      * @param cids 需要删除的数据ID
      * @return 结果
      */
-    public int deleteWmsCustomerByIds(String[] cids);
+    public int deleteTCustomerByIds(String[] cids);
 }

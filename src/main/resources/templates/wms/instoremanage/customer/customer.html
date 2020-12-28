@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="zh" xmlns:th="http://www.thymeleaf.org" xmlns:shiro="http://www.pollix.at/thymeleaf/shiro">
 <head>
-    <th:block th:include="include :: header('【客户信息】列表')" />
+    <th:block th:include="include :: header('【请填写功能名称】列表')" />
 </head>
 <body class="gray-bg">
      <div class="container-div">
@@ -17,20 +17,18 @@
                             <li>
                                 <p>客户类型：</p>
                                 <select name="ctype" th:with="type=${@dict.getType('')}">
-                                    <option value="">所有</option>
+                                    <option value="大型">大型</option>
+                                    <option value="中型">中型</option>
+                                    <option value="小型">小型</option>
                                     <option th:each="dict : ${type}" th:text="${dict.dictLabel}" th:value="${dict.dictValue}"></option>
                                 </select>
                             </li>
                             <li>
-                                <p>客户住址：</p>
+                                <p>客户地址：</p>
                                 <input type="text" name="caddress"/>
                             </li>
                             <li>
-                                <p>ceo：</p>
-                                <input type="text" name="ceo"/>
-                            </li>
-                            <li>
-                                <p>电话：</p>
+                                <p>客户电话：</p>
                                 <input type="text" name="cphone"/>
                             </li>
                             <li>
@@ -43,17 +41,18 @@
             </div>
 
             <div class="btn-group-sm" id="toolbar" role="group">
-                <a class="btn btn-success" onclick="$.operate.add()" shiro:hasPermission="basedata:customer:add">
+                <a class="btn btn-success" onclick="$.operate.add()" shiro:hasPermission="system:customer:add">
                     <i class="fa fa-plus"></i> 添加
                 </a>
-                <a class="btn btn-primary single disabled" onclick="$.operate.edit()" shiro:hasPermission="basedata:customer:edit">
+                <a class="btn btn-primary single disabled" onclick="$.operate.edit()" shiro:hasPermission="system:customer:edit">
                     <i class="fa fa-edit"></i> 修改
                 </a>
-                <a class="btn btn-danger multiple disabled" onclick="$.operate.removeAll()" shiro:hasPermission="basedata:customer:remove">
+                <a class="btn btn-danger multiple disabled" onclick="$.operate.removeAll()" shiro:hasPermission="system:customer:remove">
                     <i class="fa fa-remove"></i> 删除
                 </a>
-                <a class="btn btn-warning" onclick="$.table.exportExcel()" shiro:hasPermission="basedata:customer:export">
+                <a class="btn btn-warning" onclick="$.table.exportExcel()" shiro:hasPermission="system:customer:export">
                     <i class="fa fa-download"></i> 导出
+
                  </a>
             </div>
             <div class="col-sm-12 select-table table-striped">
@@ -63,9 +62,9 @@
     </div>
     <th:block th:include="include :: footer" />
     <script th:inline="javascript">
-        var editFlag = [[${@permission.hasPermi('basedata:customer:edit')}]];
-        var removeFlag = [[${@permission.hasPermi('basedata:customer:remove')}]];
-        var prefix = ctx + "basedata/customer";
+        var editFlag = [[${@permission.hasPermi('system:customer:edit')}]];
+        var removeFlag = [[${@permission.hasPermi('system:customer:remove')}]];
+        var prefix = ctx + "instoremanage/customer";
 
         $(function() {
             var options = {
@@ -93,15 +92,11 @@
                 },
                 {
                     field : 'caddress', 
-                    title : '客户住址'
-                },
-                {
-                    field : 'ceo', 
-                    title : 'ceo'
+                    title : '客户地址'
                 },
                 {
                     field : 'cphone', 
-                    title : '电话'
+                    title : '客户电话'
                 },
                 {
                     title: '操作',

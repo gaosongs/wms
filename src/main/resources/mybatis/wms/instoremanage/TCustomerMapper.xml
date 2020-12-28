@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ruoyi.project.wms.instoremanage.customer.mapper.TCustomerMapper">
+    
+    <resultMap type="TCustomer" id="TCustomerResult">
+        <result property="cid"    column="cid"    />
+        <result property="cname"    column="cname"    />
+        <result property="ctype"    column="ctype"    />
+        <result property="caddress"    column="caddress"    />
+        <result property="cphone"    column="cphone"    />
+    </resultMap>
+
+    <sql id="selectTCustomerVo">
+        select cid, cname, ctype, caddress, cphone from t_customer
+    </sql>
+
+    <select id="selectTCustomerList" parameterType="TCustomer" resultMap="TCustomerResult">
+        <include refid="selectTCustomerVo"/>
+        <where>  
+            <if test="cname != null  and cname != ''"> and cname like concat('%', #{cname}, '%')</if>
+            <if test="ctype != null  and ctype != ''"> and ctype = #{ctype}</if>
+            <if test="caddress != null  and caddress != ''"> and caddress = #{caddress}</if>
+            <if test="cphone != null  and cphone != ''"> and cphone = #{cphone}</if>
+        </where>
+    </select>
+    
+    <select id="selectTCustomerById" parameterType="Integer" resultMap="TCustomerResult">
+        <include refid="selectTCustomerVo"/>
+        where cid = #{cid}
+    </select>
+        
+    <insert id="insertTCustomer" parameterType="TCustomer" useGeneratedKeys="true" keyProperty="cid">
+        insert into t_customer
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="cname != null  and cname != ''">cname,</if>
+            <if test="ctype != null  and ctype != ''">ctype,</if>
+            <if test="caddress != null  and caddress != ''">caddress,</if>
+            <if test="cphone != null  and cphone != ''">cphone,</if>
+         </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="cname != null  and cname != ''">#{cname},</if>
+            <if test="ctype != null  and ctype != ''">#{ctype},</if>
+            <if test="caddress != null  and caddress != ''">#{caddress},</if>
+            <if test="cphone != null  and cphone != ''">#{cphone},</if>
+         </trim>
+    </insert>
+
+    <update id="updateTCustomer" parameterType="TCustomer">
+        update t_customer
+        <trim prefix="SET" suffixOverrides=",">
+            <if test="cname != null  and cname != ''">cname = #{cname},</if>
+            <if test="ctype != null  and ctype != ''">ctype = #{ctype},</if>
+            <if test="caddress != null  and caddress != ''">caddress = #{caddress},</if>
+            <if test="cphone != null  and cphone != ''">cphone = #{cphone},</if>
+        </trim>
+        where cid = #{cid}
+    </update>
+
+    <delete id="deleteTCustomerById" parameterType="Integer">
+        delete from t_customer where cid = #{cid}
+    </delete>
+
+    <delete id="deleteTCustomerByIds" parameterType="String">
+        delete from t_customer where cid in 
+        <foreach item="cid" collection="array" open="(" separator="," close=")">
+            #{cid}
+        </foreach>
+    </delete>
+    
+</mapper>
