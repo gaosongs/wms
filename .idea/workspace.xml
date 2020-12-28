@@ -4,20 +4,61 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2eb808a-2789-4ee4-bd01-bae88b4ba351" name="Default Changelist" comment="" />
+    <list default="true" id="b2eb808a-2789-4ee4-bd01-bae88b4ba351" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/wms/instoremanage/customer/domain/TCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/wms/instoremanage/customer/service/impl/TCustomerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/wms/basedata/customer/controller/WmsCustomerController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/wms/basedata/customer/domain/WmsCustomer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/wms/basedata/customer/mapper/WmsCustomerMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/wms/instoremanage/customer/mapper/TCustomerMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/wms/basedata/customer/service/IWmsCustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/wms/instoremanage/customer/service/ITCustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/wms/basedata/customer/service/impl/WmsCustomerServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/wms/storage/store/controller/TInStoreController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/wms/instoremanage/customer/controller/TCustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/wms/storage/store/domain/TInStore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/wms/storage/store/mapper/TInStoreMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/wms/storage/store/service/ITInStoreService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/wms/storage/store/service/impl/TInStoreServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-druid.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-druid.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis/wms/WmsCustomerMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis/wms/instoremanage/TCustomerMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/wms/basedata/customer/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/wms/instoremanage/customer/add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/wms/basedata/customer/customer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/wms/instoremanage/customer/customer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/wms/basedata/customer/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/wms/instoremanage/customer/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-druid.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-druid.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/store/controller/TInStoreController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/store/domain/TInStore.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/store/mapper/TInStoreMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/store/service/ITInStoreService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/store/service/impl/TInStoreServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/wms/basedata/customer/controller/WmsCustomerController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/wms/basedata/customer/domain/WmsCustomer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/wms/basedata/customer/mapper/WmsCustomerMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/wms/basedata/customer/service/IWmsCustomerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/wms/basedata/customer/service/impl/WmsCustomerServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mybatis/wms/WmsCustomerMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/wms/basedata/customer/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/wms/basedata/customer/customer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/wms/basedata/customer/edit.html" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="E:\apache-maven-3.6.3" />
-        <option name="userSettingsFile" value="E:\apache-maven-3.6.3\conf\settings.xml" />
+        <option name="mavenHome" value="D:/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.6.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -41,7 +82,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/templates/wms" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -49,25 +90,31 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\project\wms-warehouse-management\src\main\resources\templates\wms\instoremanage" />
+      <recent name="F:\project\wms-warehouse-management\src\main\resources\mybatis\wms" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\project\wms-warehouse-management\src\main\resources\templates\wms" />
+      <recent name="F:\project\wms-warehouse-management\src\main\resources\templates\wms\instoremanage" />
+      <recent name="F:\project\wms-warehouse-management\src\main\java\com\ruoyi\project\wms\instoremanage" />
+      <recent name="F:\project\wms-warehouse-management\src\main\java\com\ruoyi\project\wms" />
       <recent name="E:\Java课堂\java学习\62_WMS物流项目_第一天\软件\02 若依\Ting\src\main\resources\templates\wms\basedata\customer" />
-      <recent name="E:\Java课堂\java学习\62_WMS物流项目_第一天\软件\02 若依\Ting\src\main\resources\mybatis\wms" />
-      <recent name="E:\Java课堂\java学习\62_WMS物流项目_第一天\软件\02 若依\Ting\src\main\java\com\ruoyi\project\wms\basedata\customer" />
-      <recent name="D:\soft\idea\workspace\Ting\src\main\java\com\ruoyi" />
-      <recent name="D:\soft\idea\workspace\Ting\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
+  <component name="RunManager" selected="Spring Boot.RuoYiApplication (1)">
+    <configuration name="RuoYiApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="wms-warehouse-management" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ruoyi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ruoyi.RuoYiApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -87,11 +134,12 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.RuoYiApplication (1)" />
         <item itemvalue="Spring Boot.RuoYiApplication" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -109,10 +157,54 @@
       <workItem from="1608971889853" duration="1063000" />
       <workItem from="1608987345507" duration="356000" />
       <workItem from="1608987716888" duration="80000" />
+      <workItem from="1609120308440" duration="52000" />
+      <workItem from="1609120378484" duration="4716000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="701" y="189" key="FileChooserDialogImpl" timestamp="1609120353542">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="701" y="189" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1609120353542" />
+    <state width="1395" height="197" key="GridCell.Tab.0.bottom" timestamp="1609124965844">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1395" height="197" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1609124965844" />
+    <state width="1395" height="197" key="GridCell.Tab.0.center" timestamp="1609124965843">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1395" height="197" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1609124965843" />
+    <state width="1395" height="197" key="GridCell.Tab.0.left" timestamp="1609124965842">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1395" height="197" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1609124965842" />
+    <state width="1395" height="197" key="GridCell.Tab.0.right" timestamp="1609124965844">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1395" height="197" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1609124965844" />
+    <state width="1395" height="197" key="GridCell.Tab.1.bottom" timestamp="1609124965845">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1395" height="197" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1609124965845" />
+    <state width="1395" height="197" key="GridCell.Tab.1.center" timestamp="1609124965844">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1395" height="197" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1609124965844" />
+    <state width="1395" height="197" key="GridCell.Tab.1.left" timestamp="1609124965844">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1395" height="197" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1609124965844" />
+    <state width="1395" height="197" key="GridCell.Tab.1.right" timestamp="1609124965844">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1395" height="197" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1609124965844" />
+    <state x="422" y="79" key="SettingsEditor" timestamp="1609120355652">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="422" y="79" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1609120355652" />
   </component>
 </project>
