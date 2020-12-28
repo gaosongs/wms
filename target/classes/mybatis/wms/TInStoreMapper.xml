@@ -3,7 +3,6 @@
 PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.ruoyi.project.wms.instoremanage.instore.mapper.TInStoreMapper">
-    
     <resultMap type="TInStore" id="TInStoreResult">
         <result property="inid"    column="inid"    />
         <result property="inname"    column="inname"    />
