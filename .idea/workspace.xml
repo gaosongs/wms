@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13d37b3b-b883-4c11-94c7-a09e1bf1c0a0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/wms/instoremanage/order/controller/TOrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/wms/instoremanage/order/controller/TOrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application-druid.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-druid.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/wms/instoremanage/order/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/wms/instoremanage/order/add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/wms/instoremanage/order/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/wms/instoremanage/order/edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/wms/instoremanage/order/order.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/wms/instoremanage/order/order.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Ting.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Ting.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Ting.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/Ting.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application-druid.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-druid.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/wms/instoremanage/order/controller/TOrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/wms/instoremanage/order/controller/TOrderController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/wms/instoremanage/order/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/wms/instoremanage/order/add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/wms/instoremanage/order/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/wms/instoremanage/order/edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/wms/instoremanage/order/order.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/wms/instoremanage/order/order.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/新建文件夹.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
