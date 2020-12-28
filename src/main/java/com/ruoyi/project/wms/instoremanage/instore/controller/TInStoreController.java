@@ -30,7 +30,7 @@ import com.ruoyi.framework.web.page.TableDataInfo;
 @RequestMapping("/instoremanage/instore")
 public class TInStoreController extends BaseController
 {
-    private String prefix = "instoremanage/instore";
+    private String prefix = "wms/instoremanage/instore";
 
     @Autowired
     private ITInStoreService tInStoreService;

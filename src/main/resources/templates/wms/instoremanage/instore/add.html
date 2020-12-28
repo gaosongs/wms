@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="zh" xmlns:th="http://www.thymeleaf.org" >
 <head>
-    <th:block th:include="include :: header('新增【请填写功能名称】')" />
+    <th:block th:include="include :: header('新增入库信息')" />
     <th:block th:include="include :: datetimepicker-css" />
 </head>
 <body class="white-bg">
@@ -16,9 +16,10 @@
             <div class="form-group">    
                 <label class="col-sm-3 control-label">货物类型：</label>
                 <div class="col-sm-8">
-                    <select name="intype" class="form-control m-b" required>
+                    <input type="text" name="intype" class="form-control m-b"/>
+                    <!--<select name="intype" class="form-control m-b" required>
                         <option value="">所有</option>
-                    </select>
+                    </select>-->
                     <span class="help-block m-b-none"><i class="fa fa-info-circle"></i> 代码生成请选择字典属性</span>
                 </div>
             </div>
