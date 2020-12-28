@@ -1,167 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="ALL" />
-  </component>
-  <component name="ChangeListManager">
-    <list default="true" id="b2eb808a-2789-4ee4-bd01-bae88b4ba351" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/wms/storage/store/controller/TInStoreController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/wms/storage/store/domain/TInStore.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/wms/storage/store/mapper/TInStoreMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/wms/storage/store/service/ITInStoreService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/wms/storage/store/service/impl/TInStoreServiceImpl.java" beforeDir="false" />
-    </list>
-    <list default="true" id="b2eb808a-2789-4ee4-bd01-bae88b4ba351" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2020_12_28_10_50__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2020_12_28_10_50__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2020_12_28_10_50__Default_Changelist_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2020_12_28_10_50__Default_Changelist_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2020_12_28_10_57__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2020_12_28_10_57__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/wms/storemanage/store/controller/TStoreController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/wms/storemanage/store/controller/TStoreController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis/wms/WmsCustomerMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/wms/storemanage/store/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/wms/storemanage/store/add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/wms/storemanage/store/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/wms/storemanage/store/edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/wms/storemanage/store/store.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/wms/storemanage/store/store.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/main_v1.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/main_v1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/skin.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/skin.html" afterDir="false" />
-    </list>
-    <option name="SHOW_DIALOG" value="false" />
-    <option name="HIGHLIGHT_CONFLICTS" value="true" />
-    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
-    <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="liguiyang" />
-      </map>
-    </option>
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="master" />
-      </map>
-    </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="E:\apache-maven-3.6.3" />
-        <option name="userSettingsFile" value="E:\apache-maven-3.6.3\conf\settings.xml" />
+        <option name="localRepository" value="D:\apache-maven-3.6.3\maven_repository" />
+        <option name="mavenHome" value="D:/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.6.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="vmOptionsForImporter" value="-Xmx768m" />
-      </MavenImportingSettings>
-    </option>
   </component>
-  <component name="ProjectId" id="1UPtnT5EdQT29VXmtnrow7xbaN6" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="MavenRunner">
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DatabaseDriversLRU" value="mysql" />
-    <property name="RequestMappingsPanelOrder0" value="0" />
-    <property name="RequestMappingsPanelOrder1" value="1" />
-    <property name="RequestMappingsPanelWidth0" value="75" />
-    <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Java课堂\java学习\62_WMS物流项目_第一天\软件\02 若依\Ting\src\main\resources\templates\wms\basedata\customer" />
-      <recent name="E:\Java课堂\java学习\62_WMS物流项目_第一天\软件\02 若依\Ting\src\main\resources\mybatis\wms" />
-      <recent name="E:\Java课堂\java学习\62_WMS物流项目_第一天\软件\02 若依\Ting\src\main\java\com\ruoyi\project\wms\basedata\customer" />
-      <recent name="D:\soft\idea\workspace\Ting\src\main\java\com\ruoyi" />
-      <recent name="D:\soft\idea\workspace\Ting\src\main\resources" />
-    </key>
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RuoYiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-    <configuration name="RuoYiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+    <configuration name="RuoYiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="Ting" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ruoyi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ruoyi.RuoYiApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Spring Boot.RuoYiApplication" />
-        <item itemvalue="Spring Boot.RuoYiApplication" />
-        <item itemvalue="Spring Boot.RuoYiApplication" />
-      </list>
-    </recent_temporary>
-  </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
-  <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="b2eb808a-2789-4ee4-bd01-bae88b4ba351" name="Default Changelist" comment="" />
-      <created>1575270224116</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1575270224116</updated>
-      <workItem from="1575270227763" duration="911000" />
-      <workItem from="1608856951168" duration="643000" />
-      <workItem from="1608857676932" duration="9588000" />
-      <workItem from="1608968791116" duration="1534000" />
-      <workItem from="1608971889853" duration="1063000" />
-      <workItem from="1608987345507" duration="356000" />
-      <workItem from="1608987716888" duration="1156000" />
-      <workItem from="1609120625516" duration="97000" />
-    </task>
-    <task id="LOCAL-00001" summary="新建项目">
-      <created>1608988553268</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1608988553268</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
-    <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="新建项目" />
-    <option name="LAST_COMMIT_MESSAGE" value="新建项目" />
   </component>
 </project>
