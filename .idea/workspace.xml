@@ -4,43 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2eb808a-2789-4ee4-bd01-bae88b4ba351" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/wms/instoremanage/customer/domain/TCustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/wms/instoremanage/customer/service/impl/TCustomerServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/wms/basedata/customer/controller/WmsCustomerController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/wms/basedata/customer/domain/WmsCustomer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/wms/basedata/customer/mapper/WmsCustomerMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/wms/instoremanage/customer/mapper/TCustomerMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/wms/basedata/customer/service/IWmsCustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/wms/instoremanage/customer/service/ITCustomerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/wms/basedata/customer/service/impl/WmsCustomerServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/wms/storage/store/controller/TInStoreController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/wms/instoremanage/customer/controller/TCustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/wms/storage/store/domain/TInStore.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/wms/storage/store/mapper/TInStoreMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/wms/storage/store/service/ITInStoreService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/wms/storage/store/service/impl/TInStoreServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application-druid.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-druid.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis/wms/WmsCustomerMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis/wms/instoremanage/TCustomerMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/wms/basedata/customer/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/wms/instoremanage/customer/add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/wms/basedata/customer/customer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/wms/instoremanage/customer/customer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/wms/basedata/customer/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/wms/instoremanage/customer/edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application-druid.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-druid.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/store/controller/TInStoreController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/store/domain/TInStore.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/store/mapper/TInStoreMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/store/service/ITInStoreService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/store/service/impl/TInStoreServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/wms/basedata/customer/controller/WmsCustomerController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/wms/basedata/customer/domain/WmsCustomer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/wms/basedata/customer/mapper/WmsCustomerMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/wms/basedata/customer/service/IWmsCustomerService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/wms/basedata/customer/service/impl/WmsCustomerServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mybatis/wms/WmsCustomerMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/wms/basedata/customer/add.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/wms/basedata/customer/customer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/wms/basedata/customer/edit.html" beforeDir="false" />
-    </list>
+    <list default="true" id="b2eb808a-2789-4ee4-bd01-bae88b4ba351" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -158,14 +122,34 @@
       <workItem from="1608987345507" duration="356000" />
       <workItem from="1608987716888" duration="80000" />
       <workItem from="1609120308440" duration="52000" />
-      <workItem from="1609120378484" duration="4716000" />
+      <workItem from="1609120378484" duration="5064000" />
     </task>
+    <task id="LOCAL-00001" summary="客户管理模块初始化完成，无误&#10;消息号：001">
+      <created>1609125526358</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1609125526358</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="客户管理模块初始化完成，无误&#10;消息号：001" />
+    <option name="LAST_COMMIT_MESSAGE" value="客户管理模块初始化完成，无误&#10;消息号：001" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="666" y="297" key="#Notifications" timestamp="1609125804559">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="666" y="297" key="#Notifications/0.0.1536.864@0.0.1536.864" timestamp="1609125804559" />
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1609125524888">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1609125524888" />
     <state x="701" y="189" key="FileChooserDialogImpl" timestamp="1609120353542">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -206,5 +190,9 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="422" y="79" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1609120355652" />
+    <state x="493" y="199" key="Vcs.Push.Dialog.v2" timestamp="1609125535016">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="493" y="199" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1609125535016" />
   </component>
 </project>
