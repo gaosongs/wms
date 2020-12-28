@@ -26,15 +26,15 @@ import com.ruoyi.framework.web.page.TableDataInfo;
  * @date 2020-12-28
  */
 @Controller
-@RequestMapping("/system/store")
+@RequestMapping("/storemanage/store")
 public class TStoreController extends BaseController
 {
-    private String prefix = "system/store";
+    private String prefix = "wms/storemanage/store";
 
     @Autowired
     private ITStoreService tStoreService;
 
-    @RequiresPermissions("system:store:view")
+    @RequiresPermissions("storemanage:store:view")
     @GetMapping()
     public String store()
     {
@@ -44,7 +44,7 @@ public class TStoreController extends BaseController
     /**
      * 查询【请填写功能名称】列表
      */
-    @RequiresPermissions("system:store:list")
+    @RequiresPermissions("storemanage:store:list")
     @PostMapping("/list")
     @ResponseBody
     public TableDataInfo list(TStore tStore)
@@ -57,7 +57,7 @@ public class TStoreController extends BaseController
     /**
      * 导出【请填写功能名称】列表
      */
-    @RequiresPermissions("system:store:export")
+    @RequiresPermissions("storemanage:store:export")
     @Log(title = "【请填写功能名称】", businessType = BusinessType.EXPORT)
     @PostMapping("/export")
     @ResponseBody
@@ -80,7 +80,7 @@ public class TStoreController extends BaseController
     /**
      * 新增保存【请填写功能名称】
      */
-    @RequiresPermissions("system:store:add")
+    @RequiresPermissions("storemanage:store:add")
     @Log(title = "【请填写功能名称】", businessType = BusinessType.INSERT)
     @PostMapping("/add")
     @ResponseBody
@@ -103,7 +103,7 @@ public class TStoreController extends BaseController
     /**
      * 修改保存【请填写功能名称】
      */
-    @RequiresPermissions("system:store:edit")
+    @RequiresPermissions("storemanage:store:edit")
     @Log(title = "【请填写功能名称】", businessType = BusinessType.UPDATE)
     @PostMapping("/edit")
     @ResponseBody
@@ -115,7 +115,7 @@ public class TStoreController extends BaseController
     /**
      * 删除【请填写功能名称】
      */
-    @RequiresPermissions("system:store:remove")
+    @RequiresPermissions("storemanage:store:remove")
     @Log(title = "【请填写功能名称】", businessType = BusinessType.DELETE)
     @PostMapping( "/remove")
     @ResponseBody
