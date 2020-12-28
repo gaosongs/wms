@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ruoyi.project.wms.storemanage.store.mapper.TStoreMapper">
+
+    <resultMap type="com.ruoyi.project.wms.storemanage.store.domain.TStore" id="TStoreResult">
+        <result property="sid"    column="sid"    />
+        <result property="sname"    column="sname"    />
+        <result property="snum"    column="snum"    />
+        <result property="stype"    column="stype"    />
+        <result property="sstate"    column="sstate"    />
+        <result property="lid"    column="lid"    />
+        <result property="inid"    column="inid"    />
+    </resultMap>
+
+    <sql id="selectTStoreVo">
+        select sid, sname, snum, stype, sstate, lid, inid from t_store
+    </sql>
+
+    <select id="selectTStoreList" parameterType="com.ruoyi.project.wms.storemanage.store.domain.TStore" resultMap="TStoreResult">
+        <include refid="selectTStoreVo"/>
+        <where>  
+            <if test="sname != null  and sname != ''"> and sname like concat('%', #{sname}, '%')</if>
+            <if test="snum != null "> and snum = #{snum}</if>
+            <if test="stype != null  and stype != ''"> and stype = #{stype}</if>
+            <if test="sstate != null  and sstate != ''"> and sstate = #{sstate}</if>
+            <if test="lid != null "> and lid = #{lid}</if>
+            <if test="inid != null "> and inid = #{inid}</if>
+        </where>
+    </select>
+    
+    <select id="selectTStoreById" parameterType="Integer" resultMap="TStoreResult">
+        <include refid="selectTStoreVo"/>
+        where sid = #{sid}
+    </select>
+        
+    <insert id="insertTStore" parameterType="com.ruoyi.project.wms.storemanage.store.domain.TStore" useGeneratedKeys="true" keyProperty="sid">
+        insert into t_store
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="sname != null  and sname != ''">sname,</if>
+            <if test="snum != null ">snum,</if>
+            <if test="stype != null  and stype != ''">stype,</if>
+            <if test="sstate != null  and sstate != ''">sstate,</if>
+            <if test="lid != null ">lid,</if>
+            <if test="inid != null ">inid,</if>
+         </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="sname != null  and sname != ''">#{sname},</if>
+            <if test="snum != null ">#{snum},</if>
+            <if test="stype != null  and stype != ''">#{stype},</if>
+            <if test="sstate != null  and sstate != ''">#{sstate},</if>
+            <if test="lid != null ">#{lid},</if>
+            <if test="inid != null ">#{inid},</if>
+         </trim>
+    </insert>
+
+    <update id="updateTStore" parameterType="com.ruoyi.project.wms.storemanage.store.domain.TStore">
+        update t_store
+        <trim prefix="SET" suffixOverrides=",">
+            <if test="sname != null  and sname != ''">sname = #{sname},</if>
+            <if test="snum != null ">snum = #{snum},</if>
+            <if test="stype != null  and stype != ''">stype = #{stype},</if>
+            <if test="sstate != null  and sstate != ''">sstate = #{sstate},</if>
+            <if test="lid != null ">lid = #{lid},</if>
+            <if test="inid != null ">inid = #{inid},</if>
+        </trim>
+        where sid = #{sid}
+    </update>
+
+    <delete id="deleteTStoreById" parameterType="Integer">
+        delete from t_store where sid = #{sid}
+    </delete>
+
+    <delete id="deleteTStoreByIds" parameterType="String">
+        delete from t_store where sid in 
+        <foreach item="sid" collection="array" open="(" separator="," close=")">
+            #{sid}
+        </foreach>
+    </delete>
+    
+</mapper>

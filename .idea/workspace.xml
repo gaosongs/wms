@@ -12,6 +12,20 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/wms/storage/store/service/ITInStoreService.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/wms/storage/store/service/impl/TInStoreServiceImpl.java" beforeDir="false" />
     </list>
+    <list default="true" id="b2eb808a-2789-4ee4-bd01-bae88b4ba351" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2020_12_28_10_50__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2020_12_28_10_50__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2020_12_28_10_50__Default_Changelist_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2020_12_28_10_50__Default_Changelist_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2020_12_28_10_57__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2020_12_28_10_57__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/wms/storemanage/store/controller/TStoreController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/project/wms/storemanage/store/controller/TStoreController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis/wms/WmsCustomerMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/wms/storemanage/store/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/wms/storemanage/store/add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/wms/storemanage/store/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/wms/storemanage/store/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/wms/storemanage/store/store.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/wms/storemanage/store/store.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/main_v1.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/main_v1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/skin.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/skin.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +35,11 @@
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="liguiyang" />
+      </map>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -87,6 +106,7 @@
       </method>
     </configuration>
     <configuration name="RuoYiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="RuoYiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="Ting" />
       <extension name="coverage">
         <pattern>
@@ -101,6 +121,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.RuoYiApplication" />
         <item itemvalue="Spring Boot.RuoYiApplication" />
         <item itemvalue="Spring Boot.RuoYiApplication" />
       </list>
