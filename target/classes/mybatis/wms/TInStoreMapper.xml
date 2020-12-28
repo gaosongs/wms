@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ruoyi.project.wms.instoremanage.instore.mapper.TInStoreMapper">
+    
+    <resultMap type="TInStore" id="TInStoreResult">
+        <result property="inid"    column="inid"    />
+        <result property="inname"    column="inname"    />
+        <result property="intype"    column="intype"    />
+        <result property="innum"    column="innum"    />
+        <result property="intime"    column="intime"    />
+        <result property="oid"    column="oid"    />
+    </resultMap>
+
+    <sql id="selectTInStoreVo">
+        select inid, inname, intype, innum, intime, oid from t_in_store
+    </sql>
+
+    <select id="selectTInStoreList" parameterType="TInStore" resultMap="TInStoreResult">
+        <include refid="selectTInStoreVo"/>
+        <where>  
+            <if test="inname != null  and inname != ''"> and inname like concat('%', #{inname}, '%')</if>
+            <if test="intype != null  and intype != ''"> and intype = #{intype}</if>
+            <if test="innum != null "> and innum = #{innum}</if>
+            <if test="intime != null "> and intime = #{intime}</if>
+            <if test="oid != null "> and oid = #{oid}</if>
+        </where>
+    </select>
+    
+    <select id="selectTInStoreById" parameterType="Integer" resultMap="TInStoreResult">
+        <include refid="selectTInStoreVo"/>
+        where inid = #{inid}
+    </select>
+        
+    <insert id="insertTInStore" parameterType="TInStore" useGeneratedKeys="true" keyProperty="inid">
+        insert into t_in_store
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="inname != null  and inname != ''">inname,</if>
+            <if test="intype != null  and intype != ''">intype,</if>
+            <if test="innum != null ">innum,</if>
+            <if test="intime != null ">intime,</if>
+            <if test="oid != null ">oid,</if>
+         </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="inname != null  and inname != ''">#{inname},</if>
+            <if test="intype != null  and intype != ''">#{intype},</if>
+            <if test="innum != null ">#{innum},</if>
+            <if test="intime != null ">#{intime},</if>
+            <if test="oid != null ">#{oid},</if>
+         </trim>
+    </insert>
+
+    <update id="updateTInStore" parameterType="TInStore">
+        update t_in_store
+        <trim prefix="SET" suffixOverrides=",">
+            <if test="inname != null  and inname != ''">inname = #{inname},</if>
+            <if test="intype != null  and intype != ''">intype = #{intype},</if>
+            <if test="innum != null ">innum = #{innum},</if>
+            <if test="intime != null ">intime = #{intime},</if>
+            <if test="oid != null ">oid = #{oid},</if>
+        </trim>
+        where inid = #{inid}
+    </update>
+
+    <delete id="deleteTInStoreById" parameterType="Integer">
+        delete from t_in_store where inid = #{inid}
+    </delete>
+
+    <delete id="deleteTInStoreByIds" parameterType="String">
+        delete from t_in_store where inid in 
+        <foreach item="inid" collection="array" open="(" separator="," close=")">
+            #{inid}
+        </foreach>
+    </delete>
+    
+</mapper>
