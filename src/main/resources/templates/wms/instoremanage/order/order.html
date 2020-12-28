@@ -16,10 +16,11 @@
                             </li>
                             <li>
                                 <p>货物类型：</p>
-                                <select name="otype" th:with="type=${@dict.getType('')}">
-                                    <option value="">所有</option>
-                                    <option th:each="dict : ${type}" th:text="${dict.dictLabel}" th:value="${dict.dictValue}"></option>
-                                </select>
+                                <input type="text" name="otype"/>
+<!--                                <select name="otype" th:with="type=${@dict.getType('')}">-->
+<!--                                    <option value="">所有</option>-->
+<!--                                    <option th:each="dict : ${type}" th:text="${dict.dictLabel}" th:value="${dict.dictValue}"></option>-->
+<!--                                </select>-->
                             </li>
                             <li>
                                 <p>货物数量：</p>
