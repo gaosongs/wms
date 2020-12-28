@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh" xmlns:th="http://www.thymeleaf.org" >
+<head>
+    <th:block th:include="include :: header('修改【订单信息】')" />
+    <th:block th:include="include :: datetimepicker-css" />
+</head>
+<body class="white-bg">
+    <div class="wrapper wrapper-content animated fadeInRight ibox-content">
+        <form class="form-horizontal m" id="form-order-edit" th:object="${tOrder}">
+            <input name="oid" th:field="*{oid}" type="hidden">
+            <div class="form-group">    
+                <label class="col-sm-3 control-label">货物名称：</label>
+                <div class="col-sm-8">
+                    <input name="oname" th:field="*{oname}" class="form-control" type="text" required>
+                </div>
+            </div>
+            <div class="form-group">    
+                <label class="col-sm-3 control-label">货物类型：</label>
+                <div class="col-sm-8">
+                    <input type="text" name="otype"/>
+<!--                    <select name="otype" class="form-control m-b" required>-->
+<!--                        <option value="">所有</option>-->
+<!--                    </select>-->
+                    <span class="help-block m-b-none"><i class="fa fa-info-circle"></i> 代码生成请选择字典属性</span>
+                </div>
+            </div>
+            <div class="form-group">    
+                <label class="col-sm-3 control-label">货物数量：</label>
+                <div class="col-sm-8">
+                    <input name="onum" th:field="*{onum}" class="form-control" type="text" required>
+                </div>
+            </div>
+            <div class="form-group">    
+                <label class="col-sm-3 control-label">货源地址：</label>
+                <div class="col-sm-8">
+                    <input name="ocaddress" th:field="*{ocaddress}" class="form-control" type="text" required>
+                </div>
+            </div>
+            <div class="form-group">    
+                <label class="col-sm-3 control-label">目的地地址：</label>
+                <div class="col-sm-8">
+                    <input name="oaddress" th:field="*{oaddress}" class="form-control" type="text" required>
+                </div>
+            </div>
+            <div class="form-group">    
+                <label class="col-sm-3 control-label">下单时间：</label>
+                <div class="col-sm-8">
+                    <div class="input-group date">
+                        <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
+                        <input name="otime" th:value="${#dates.format(tOrder.otime, 'yyyy-MM-dd')}" class="form-control" placeholder="yyyy-MM-dd" type="text" required>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">    
+                <label class="col-sm-3 control-label">客户编号：</label>
+                <div class="col-sm-8">
+                    <input name="cid" th:field="*{cid}" class="form-control" type="text" required>
+                </div>
+            </div>
+        </form>
+    </div>
+    <th:block th:include="include :: footer" />
+    <th:block th:include="include :: datetimepicker-js" />
+    <script type="text/javascript">
+        var prefix = ctx + "instoremanage/order";
+        $("#form-order-edit").validate({
+            focusCleanup: true
+        });
+
+        function submitHandler() {
+            if ($.validate.form()) {
+                $.operate.save(prefix + "/edit", $('#form-order-edit').serialize());
+            }
+        }
+
+        $("input[name='otime']").datetimepicker({
+            format: "yyyy-mm-dd",
+            minView: "month",
+            autoclose: true
+        });
+    </script>
+</body>
+</html>
