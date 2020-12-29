@@ -66,8 +66,8 @@
     </div>
     <th:block th:include="include :: footer" />
     <script th:inline="javascript">
-        var editFlag = [[${@permission.hasPermi('system:store:edit')}]];
-        var removeFlag = [[${@permission.hasPermi('system:store:remove')}]];
+        var editFlag = [[${@permission.hasPermi('instoremanage:instore:edit')}]];
+        var removeFlag = [[${@permission.hasPermi('instoremanage:instore:remove')}]];
         var prefix = ctx + "instoremanage/instore";
 
         $(function() {
