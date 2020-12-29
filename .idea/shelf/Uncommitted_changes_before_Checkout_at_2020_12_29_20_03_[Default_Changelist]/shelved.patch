@@ -1,0 +1,270 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"00cc9b85-a71f-4141-96fd-e923c5828275\" name=\"Default Changelist\" comment=\"合并主分支\">\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"5ff97a5e-b438-4d92-8857-accf1aa84f80\" name=\"Default Changelist\" comment=\"\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"CodeInsightWorkspaceSettings\">\r\n    <option name=\"optimizeImportsOnTheFly\" value=\"true\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"liguiyang\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MavenImportPreferences\">\r\n    <option name=\"generalSettings\">\r\n      <MavenGeneralSettings>\r\n        <option name=\"mavenHome\" value=\"$PROJECT_DIR$/../../../../apache-maven-3.6.3\" />\r\n        <option name=\"userSettingsFile\" value=\"E:\\apache-maven-3.6.3\\conf\\settings.xml\" />\r\n        <option name=\"localRepository\" value=\"D:\\apache-maven-3.6.3\\maven_repository\" />\r\n        <option name=\"userSettingsFile\" value=\"D:\\apache-maven-3.6.3\\conf\\settings.xml\" />\r\n      </MavenGeneralSettings>\r\n    </option>\r\n  </component>\r\n  <component name=\"MavenRunner\">\r\n    <option name=\"vmOptions\" value=\"-DarchetypeCatalog=internal\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"DatabaseDriversLRU\" value=\"mysql\" />\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"SHARE_PROJECT_CONFIGURATION_FILES\" value=\"true\" />\r\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\r\n    <property name=\"aspect.path.notification.shown\" value=\"true\" />\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$\" />\r\n    <property name=\"node.js.detected.package.eslint\" value=\"true\" />\r\n    <property name=\"node.js.detected.package.tslint\" value=\"true\" />\r\n    <property name=\"node.js.path.for.package.eslint\" value=\"project\" />\r\n    <property name=\"node.js.path.for.package.tslint\" value=\"project\" />\r\n    <property name=\"node.js.selected.package.eslint\" value=\"(autodetect)\" />\r\n    <property name=\"node.js.selected.package.tslint\" value=\"(autodetect)\" />\r\n    <property name=\"settings.editor.selected.configurable\" value=\"MavenSettings\" />\r\n    <property name=\"node.js.path.for.package.tslint\" value=\"project\" />\r\n    <property name=\"node.js.selected.package.tslint\" value=\"(autodetect)\" />\r\n    <property name=\"settings.editor.selected.configurable\" value=\"editor.preferences.import\" />\r\n  </component>\r\n  <component name=\"RunManager\">\r\n    <configuration default=\"true\" type=\"ArquillianJUnit\" factoryName=\"\" nameIsGenerated=\"true\">\r\n      <option name=\"arquillianRunConfiguration\">\r\n        <value>\r\n          <option name=\"containerStateName\" value=\"\" />\r\n        </value>\r\n      </option>\r\n      <option name=\"TEST_OBJECT\" value=\"class\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"RuoYiApplication\" type=\"SpringBootApplicationConfigurationType\" factoryName=\"Spring Boot\">\r\n      <module name=\"Ting\" />\r\n      <option name=\"SPRING_BOOT_MAIN_CLASS\" value=\"com.ruoyi.RuoYiApplication\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n  </component>\r\n  <component name=\"SvnConfiguration\">\r\n    <configuration />\r\n  </component>\r\n  <component name=\"TaskManager\">\r\n    <task id=\"LOCAL-00001\" summary=\"123\">\r\n      <created>1609233599531</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1609233599531</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"2\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"123\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"123\" />\r\n  </component>\r\n  <component name=\"WindowStateProjectService\">\r\n    <state x=\"257\" y=\"0\" key=\"CommitChangelistDialog2\" timestamp=\"1609233598680\">\r\n      <screen x=\"0\" y=\"0\" width=\"1536\" height=\"864\" />\r\n    </state>\r\n    <state x=\"257\" y=\"0\" key=\"CommitChangelistDialog2/0.0.1536.864@0.0.1536.864\" timestamp=\"1609233598680\" />\r\n    <state width=\"1492\" height=\"263\" key=\"GridCell.Tab.0.bottom\" timestamp=\"1609233557144\">\r\n      <screen x=\"0\" y=\"0\" width=\"1536\" height=\"864\" />\r\n    </state>\r\n    <state width=\"1492\" height=\"263\" key=\"GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864\" timestamp=\"1609233557144\" />\r\n    <state width=\"1492\" height=\"263\" key=\"GridCell.Tab.0.center\" timestamp=\"1609233557144\">\r\n      <screen x=\"0\" y=\"0\" width=\"1536\" height=\"864\" />\r\n    </state>\r\n    <state width=\"1492\" height=\"263\" key=\"GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864\" timestamp=\"1609233557144\" />\r\n    <state width=\"1492\" height=\"263\" key=\"GridCell.Tab.0.left\" timestamp=\"1609233557144\">\r\n      <screen x=\"0\" y=\"0\" width=\"1536\" height=\"864\" />\r\n    </state>\r\n    <state width=\"1492\" height=\"263\" key=\"GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864\" timestamp=\"1609233557144\" />\r\n    <state width=\"1492\" height=\"263\" key=\"GridCell.Tab.0.right\" timestamp=\"1609233557144\">\r\n      <screen x=\"0\" y=\"0\" width=\"1536\" height=\"864\" />\r\n    </state>\r\n    <state width=\"1492\" height=\"263\" key=\"GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864\" timestamp=\"1609233557144\" />\r\n    <state width=\"1492\" height=\"263\" key=\"GridCell.Tab.1.bottom\" timestamp=\"1609233557144\">\r\n      <screen x=\"0\" y=\"0\" width=\"1536\" height=\"864\" />\r\n    </state>\r\n    <state width=\"1492\" height=\"263\" key=\"GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864\" timestamp=\"1609233557144\" />\r\n    <state width=\"1492\" height=\"263\" key=\"GridCell.Tab.1.center\" timestamp=\"1609233557144\">\r\n      <screen x=\"0\" y=\"0\" width=\"1536\" height=\"864\" />\r\n    </state>\r\n    <state width=\"1492\" height=\"263\" key=\"GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864\" timestamp=\"1609233557144\" />\r\n    <state width=\"1492\" height=\"263\" key=\"GridCell.Tab.1.left\" timestamp=\"1609233557144\">\r\n      <screen x=\"0\" y=\"0\" width=\"1536\" height=\"864\" />\r\n    </state>\r\n    <state width=\"1492\" height=\"263\" key=\"GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864\" timestamp=\"1609233557144\" />\r\n    <state width=\"1492\" height=\"263\" key=\"GridCell.Tab.1.right\" timestamp=\"1609233557144\">\r\n      <screen x=\"0\" y=\"0\" width=\"1536\" height=\"864\" />\r\n    </state>\r\n    <state width=\"1492\" height=\"263\" key=\"GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864\" timestamp=\"1609233557144\" />\r\n    <state x=\"403\" y=\"192\" key=\"MultipleFileMergeDialog\" timestamp=\"1609233622134\">\r\n      <screen x=\"0\" y=\"0\" width=\"1536\" height=\"864\" />\r\n    </state>\r\n    <state x=\"403\" y=\"192\" key=\"MultipleFileMergeDialog/0.0.1536.864@0.0.1536.864\" timestamp=\"1609233622134\" />\r\n    <state x=\"431\" y=\"219\" key=\"git4idea.merge.GitPullDialog\" timestamp=\"1609233607006\">\r\n      <screen x=\"0\" y=\"0\" width=\"1536\" height=\"864\" />\r\n    </state>\r\n    <state x=\"431\" y=\"219\" key=\"git4idea.merge.GitPullDialog/0.0.1536.864@0.0.1536.864\" timestamp=\"1609233607006\" />\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task id=\"LOCAL-00001\" summary=\"合并主分支\">\r\n      <created>1609231978284</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1609231978284</updated>\r\n    </task>\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"00cc9b85-a71f-4141-96fd-e923c5828275\" name=\"Default Changelist\" comment=\"合并主分支\" />\r\n      <created>1609232032892</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1609232032892</updated>\r\n      <workItem from=\"1609232037425\" duration=\"117000\" />\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"2\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"合并主分支\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"合并主分支\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision ae38864788bcaced55ed12e4058257d2678a26cf)
++++ .idea/workspace.xml	(date 1609243256832)
+@@ -3,19 +3,6 @@
+   <component name="AutoImportSettings">
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+-  <component name="AutoImportSettings">
+-    <option name="autoReloadType" value="SELECTIVE" />
+-  </component>
+-  <component name="ChangeListManager">
+-    <list default="true" id="00cc9b85-a71f-4141-96fd-e923c5828275" name="Default Changelist" comment="合并主分支">
+-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-    </list>
+-    <option name="SHOW_DIALOG" value="false" />
+-    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+-    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+-    <option name="LAST_RESOLUTION" value="IGNORE" />
+-  </component>
+   <component name="ChangeListManager">
+     <list default="true" id="5ff97a5e-b438-4d92-8857-accf1aa84f80" name="Default Changelist" comment="" />
+     <option name="SHOW_DIALOG" value="false" />
+@@ -25,9 +12,6 @@
+   </component>
+   <component name="CodeInsightWorkspaceSettings">
+     <option name="optimizeImportsOnTheFly" value="true" />
+-  </component>
+-  <component name="Git.Settings">
+-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
+   <component name="Git.Settings">
+     <option name="RECENT_BRANCH_BY_REPOSITORY">
+@@ -73,17 +57,6 @@
+     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+   </component>
+   <component name="RunManager">
+-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+-      <option name="arquillianRunConfiguration">
+-        <value>
+-          <option name="containerStateName" value="" />
+-        </value>
+-      </option>
+-      <option name="TEST_OBJECT" value="class" />
+-      <method v="2">
+-        <option name="Make" enabled="true" />
+-      </method>
+-    </configuration>
+     <configuration name="RuoYiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+       <module name="Ting" />
+       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ruoyi.RuoYiApplication" />
+@@ -92,95 +65,84 @@
+       </method>
+     </configuration>
+   </component>
++  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="SvnConfiguration">
+     <configuration />
+   </component>
+   <component name="TaskManager">
+-    <task id="LOCAL-00001" summary="123">
+-      <created>1609233599531</created>
++    <task id="LOCAL-00001" summary="合并主分支">
++      <created>1609231978284</created>
+       <option name="number" value="00001" />
+       <option name="presentableId" value="LOCAL-00001" />
+       <option name="project" value="LOCAL" />
+-      <updated>1609233599531</updated>
++      <updated>1609231978284</updated>
++    </task>
++    <task active="true" id="Default" summary="Default task">
++      <changelist id="00cc9b85-a71f-4141-96fd-e923c5828275" name="Default Changelist" comment="合并主分支" />
++      <created>1609232032892</created>
++      <option name="number" value="Default" />
++      <option name="presentableId" value="Default" />
++      <updated>1609232032892</updated>
++      <workItem from="1609232037425" duration="117000" />
+     </task>
+     <option name="localTasksCounter" value="2" />
+     <servers />
+   </component>
++  <component name="TypeScriptGeneratedFilesManager">
++    <option name="version" value="3" />
++  </component>
+   <component name="VcsManagerConfiguration">
+-    <MESSAGE value="123" />
+-    <option name="LAST_COMMIT_MESSAGE" value="123" />
++    <MESSAGE value="合并主分支" />
++    <option name="LAST_COMMIT_MESSAGE" value="合并主分支" />
+   </component>
+   <component name="WindowStateProjectService">
+     <state x="257" y="0" key="CommitChangelistDialog2" timestamp="1609233598680">
+       <screen x="0" y="0" width="1536" height="864" />
+     </state>
+     <state x="257" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1609233598680" />
+-    <state width="1492" height="263" key="GridCell.Tab.0.bottom" timestamp="1609233557144">
++    <state width="1492" height="546" key="GridCell.Tab.0.bottom" timestamp="1609243226436">
+       <screen x="0" y="0" width="1536" height="864" />
+     </state>
+-    <state width="1492" height="263" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1609233557144" />
+-    <state width="1492" height="263" key="GridCell.Tab.0.center" timestamp="1609233557144">
++    <state width="1492" height="546" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1609243226436" />
++    <state width="1492" height="546" key="GridCell.Tab.0.center" timestamp="1609243226436">
+       <screen x="0" y="0" width="1536" height="864" />
+     </state>
+-    <state width="1492" height="263" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1609233557144" />
+-    <state width="1492" height="263" key="GridCell.Tab.0.left" timestamp="1609233557144">
++    <state width="1492" height="546" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1609243226436" />
++    <state width="1492" height="546" key="GridCell.Tab.0.left" timestamp="1609243226436">
+       <screen x="0" y="0" width="1536" height="864" />
+     </state>
+-    <state width="1492" height="263" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1609233557144" />
+-    <state width="1492" height="263" key="GridCell.Tab.0.right" timestamp="1609233557144">
++    <state width="1492" height="546" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1609243226436" />
++    <state width="1492" height="546" key="GridCell.Tab.0.right" timestamp="1609243226436">
+       <screen x="0" y="0" width="1536" height="864" />
+     </state>
+-    <state width="1492" height="263" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1609233557144" />
+-    <state width="1492" height="263" key="GridCell.Tab.1.bottom" timestamp="1609233557144">
++    <state width="1492" height="546" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1609243226436" />
++    <state width="1492" height="546" key="GridCell.Tab.1.bottom" timestamp="1609243226436">
+       <screen x="0" y="0" width="1536" height="864" />
+     </state>
+-    <state width="1492" height="263" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1609233557144" />
+-    <state width="1492" height="263" key="GridCell.Tab.1.center" timestamp="1609233557144">
++    <state width="1492" height="546" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1609243226436" />
++    <state width="1492" height="546" key="GridCell.Tab.1.center" timestamp="1609243226436">
+       <screen x="0" y="0" width="1536" height="864" />
+     </state>
+-    <state width="1492" height="263" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1609233557144" />
+-    <state width="1492" height="263" key="GridCell.Tab.1.left" timestamp="1609233557144">
++    <state width="1492" height="546" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1609243226436" />
++    <state width="1492" height="546" key="GridCell.Tab.1.left" timestamp="1609243226436">
+       <screen x="0" y="0" width="1536" height="864" />
+     </state>
+-    <state width="1492" height="263" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1609233557144" />
+-    <state width="1492" height="263" key="GridCell.Tab.1.right" timestamp="1609233557144">
++    <state width="1492" height="546" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1609243226436" />
++    <state width="1492" height="546" key="GridCell.Tab.1.right" timestamp="1609243226436">
+       <screen x="0" y="0" width="1536" height="864" />
+     </state>
+-    <state width="1492" height="263" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1609233557144" />
++    <state width="1492" height="546" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1609243226436" />
+     <state x="403" y="192" key="MultipleFileMergeDialog" timestamp="1609233622134">
+       <screen x="0" y="0" width="1536" height="864" />
+     </state>
+     <state x="403" y="192" key="MultipleFileMergeDialog/0.0.1536.864@0.0.1536.864" timestamp="1609233622134" />
+-    <state x="431" y="219" key="git4idea.merge.GitPullDialog" timestamp="1609233607006">
++    <state x="564" y="345" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609243246659">
+       <screen x="0" y="0" width="1536" height="864" />
+     </state>
+-    <state x="431" y="219" key="git4idea.merge.GitPullDialog/0.0.1536.864@0.0.1536.864" timestamp="1609233607006" />
+-  </component>
+-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+-  <component name="TaskManager">
+-    <task id="LOCAL-00001" summary="合并主分支">
+-      <created>1609231978284</created>
+-      <option name="number" value="00001" />
+-      <option name="presentableId" value="LOCAL-00001" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1609231978284</updated>
+-    </task>
+-    <task active="true" id="Default" summary="Default task">
+-      <changelist id="00cc9b85-a71f-4141-96fd-e923c5828275" name="Default Changelist" comment="合并主分支" />
+-      <created>1609232032892</created>
+-      <option name="number" value="Default" />
+-      <option name="presentableId" value="Default" />
+-      <updated>1609232032892</updated>
+-      <workItem from="1609232037425" duration="117000" />
+-    </task>
+-    <option name="localTasksCounter" value="2" />
+-    <servers />
+-  </component>
+-  <component name="TypeScriptGeneratedFilesManager">
+-    <option name="version" value="3" />
+-  </component>
+-  <component name="VcsManagerConfiguration">
+-    <MESSAGE value="合并主分支" />
+-    <option name="LAST_COMMIT_MESSAGE" value="合并主分支" />
++    <state x="564" y="345" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864@0.0.1536.864" timestamp="1609243246659" />
++    <state x="431" y="219" key="git4idea.merge.GitPullDialog" timestamp="1609243238658">
++      <screen x="0" y="0" width="1536" height="864" />
++    </state>
++    <state x="431" y="219" key="git4idea.merge.GitPullDialog/0.0.1536.864@0.0.1536.864" timestamp="1609243238658" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: src/main/resources/application-druid.yml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># 数据源配置\r\nspring:\r\n    datasource:\r\n        type: com.alibaba.druid.pool.DruidDataSource\r\n        driverClassName: com.mysql.cj.jdbc.Driver\r\n        druid:\r\n            # 主库数据源\r\n            master:\r\n                url: jdbc:mysql://localhost:3306/ruoyi?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8\r\n                username: root\r\n                password: root\r\n            # 从库数据源\r\n            slave:\r\n                # 从数据源开关/默认关闭\r\n                enabled: false\r\n                url: \r\n                username: \r\n                password: \r\n            # 初始连接数\r\n            initialSize: 5\r\n            # 最小连接池数量\r\n            minIdle: 10\r\n            # 最大连接池数量\r\n            maxActive: 20\r\n            # 配置获取连接等待超时的时间\r\n            maxWait: 60000\r\n            # 配置间隔多久才进行一次检测，检测需要关闭的空闲连接，单位是毫秒\r\n            timeBetweenEvictionRunsMillis: 60000\r\n            # 配置一个连接在池中最小生存的时间，单位是毫秒\r\n            minEvictableIdleTimeMillis: 300000\r\n            # 配置一个连接在池中最大生存的时间，单位是毫秒\r\n            maxEvictableIdleTimeMillis: 900000\r\n            # 配置检测连接是否有效\r\n            validationQuery: SELECT 1 FROM DUAL\r\n            testWhileIdle: true\r\n            testOnBorrow: false\r\n            testOnReturn: false\r\n            webStatFilter: \r\n                enabled: true\r\n            statViewServlet:\r\n                enabled: true\r\n                # 设置白名单，不填则允许所有访问\r\n                allow:\r\n                url-pattern: /druid/*\r\n                # 控制台管理用户名和密码\r\n                login-username: \r\n                login-password: \r\n            filter:\r\n                stat:\r\n                    enabled: true\r\n                    # 慢SQL记录\r\n                    log-slow-sql: true\r\n                    slow-sql-millis: 1000\r\n                    merge-sql: true\r\n                wall:\r\n                    config:\r\n                        multi-statement-allow: true
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/resources/application-druid.yml	(revision ae38864788bcaced55ed12e4058257d2678a26cf)
++++ src/main/resources/application-druid.yml	(date 1609243350562)
+@@ -6,7 +6,7 @@
+         druid:
+             # 主库数据源
+             master:
+-                url: jdbc:mysql://localhost:3306/ruoyi?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8
++                url: jdbc:mysql://192.168.153.112:3306/ruoyi?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8
+                 username: root
+                 password: root
+             # 从库数据源
+Index: target/classes/templates/wms/instoremanage/instore/store.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html lang=\"zh\" xmlns:th=\"http://www.thymeleaf.org\" xmlns:shiro=\"http://www.pollix.at/thymeleaf/shiro\">\r\n<head>\r\n    <th:block th:include=\"include :: header('入库信息列表')\" />\r\n</head>\r\n<body class=\"gray-bg\">\r\n     <div class=\"container-div\">\r\n        <div class=\"row\">\r\n            <div class=\"col-sm-12 search-collapse\">\r\n                <form id=\"formId\">\r\n                    <div class=\"select-list\">\r\n                        <ul>\r\n                            <li>\r\n                                <p>货物名称：</p>\r\n                                <input type=\"text\" name=\"inname\"/>\r\n                            </li>\r\n                            <li>\r\n                                <p>货物类型：</p>\r\n                                <input type=\"text\" name=\"intype\"/>\r\n                                <!--<select name=\"intype\" th:with=\"type=${@dict.getType('')}\">\r\n                                    <option value=\"\">所有</option>\r\n                                    <option th:each=\"dict : ${type}\" th:text=\"${dict.dictLabel}\" th:value=\"${dict.dictValue}\"></option>\r\n                                </select>-->\r\n                            </li>\r\n                            <li>\r\n                                <p>货物数量：</p>\r\n                                <input type=\"text\" name=\"innum\"/>\r\n                            </li>\r\n                            <li class=\"select-time\">\r\n                                <p>入库时间：</p>\r\n                                <input type=\"text\" class=\"time-input\" id=\"startTime\" placeholder=\"开始时间\" name=\"params[beginIntime]\"/>\r\n                                <span>-</span>\r\n                                <input type=\"text\" class=\"time-input\" id=\"endTime\" placeholder=\"结束时间\" name=\"params[endIntime]\"/>\r\n                            </li>\r\n                            <li>\r\n                                <p>订单编号：</p>\r\n                                <input type=\"text\" name=\"oid\"/>\r\n                            </li>\r\n                            <li>\r\n                                <a class=\"btn btn-primary btn-rounded btn-sm\" onclick=\"$.table.search()\"><i class=\"fa fa-search\"></i>&nbsp;搜索</a>\r\n                                <a class=\"btn btn-warning btn-rounded btn-sm\" onclick=\"$.form.reset()\"><i class=\"fa fa-refresh\"></i>&nbsp;重置</a>\r\n                            </li>\r\n                        </ul>\r\n                    </div>\r\n                </form>\r\n            </div>\r\n\r\n            <div class=\"btn-group-sm\" id=\"toolbar\" role=\"group\">\r\n                <a class=\"btn btn-success\" onclick=\"$.operate.add()\" shiro:hasPermission=\"instoremanage:instore:add\">\r\n                    <i class=\"fa fa-plus\"></i> 添加\r\n                </a>\r\n                <a class=\"btn btn-primary single disabled\" onclick=\"$.operate.edit()\" shiro:hasPermission=\"instoremanage:instore:edit\">\r\n                    <i class=\"fa fa-edit\"></i> 修改\r\n                </a>\r\n                <a class=\"btn btn-danger multiple disabled\" onclick=\"$.operate.removeAll()\" shiro:hasPermission=\"instoremanage:instore:remove\">\r\n                    <i class=\"fa fa-remove\"></i> 删除\r\n                </a>\r\n                <a class=\"btn btn-warning\" onclick=\"$.table.exportExcel()\" shiro:hasPermission=\"instoremanage:instore:export\">\r\n                    <i class=\"fa fa-download\"></i> 导出\r\n                 </a>\r\n            </div>\r\n            <div class=\"col-sm-12 select-table table-striped\">\r\n                <table id=\"bootstrap-table\"></table>\r\n            </div>\r\n        </div>\r\n    </div>\r\n    <th:block th:include=\"include :: footer\" />\r\n    <script th:inline=\"javascript\">\r\n        var editFlag = [[${@permission.hasPermi('system:store:edit')}]];\r\n        var removeFlag = [[${@permission.hasPermi('system:store:remove')}]];\r\n        var prefix = ctx + \"instoremanage/instore\";\r\n\r\n        $(function() {\r\n            var options = {\r\n                url: prefix + \"/list\",\r\n                createUrl: prefix + \"/add\",\r\n                updateUrl: prefix + \"/edit/{id}\",\r\n                removeUrl: prefix + \"/remove\",\r\n                exportUrl: prefix + \"/export\",\r\n                modalName: \"入库信息\",\r\n                columns: [{\r\n                    checkbox: true\r\n                },\r\n                {\r\n                    field : 'inid', \r\n                    title : '入库编号',\r\n                    visible: false\r\n                },\r\n                {\r\n                    field : 'inname', \r\n                    title : '货物名称'\r\n                },\r\n                {\r\n                    field : 'intype', \r\n                    title : '货物类型'\r\n                },\r\n                {\r\n                    field : 'innum', \r\n                    title : '货物数量'\r\n                },\r\n                {\r\n                    field : 'intime', \r\n                    title : '入库时间'\r\n                },\r\n                {\r\n                    field : 'oid', \r\n                    title : '订单编号'\r\n                },\r\n                {\r\n                    title: '操作',\r\n                    align: 'center',\r\n                    formatter: function(value, row, index) {\r\n                        var actions = [];\r\n                        actions.push('<a class=\"btn btn-success btn-xs ' + editFlag + '\" href=\"javascript:void(0)\" onclick=\"$.operate.edit(\\'' + row.inid + '\\')\"><i class=\"fa fa-edit\"></i>编辑</a> ');\r\n                        actions.push('<a class=\"btn btn-danger btn-xs ' + removeFlag + '\" href=\"javascript:void(0)\" onclick=\"$.operate.remove(\\'' + row.inid + '\\')\"><i class=\"fa fa-remove\"></i>删除</a>');\r\n                        return actions.join('');\r\n                    }\r\n                }]\r\n            };\r\n            $.table.init(options);\r\n        });\r\n    </script>\r\n</body>\r\n</html>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- target/classes/templates/wms/instoremanage/instore/store.html	(revision ae38864788bcaced55ed12e4058257d2678a26cf)
++++ target/classes/templates/wms/instoremanage/instore/store.html	(date 1609235881546)
+@@ -66,8 +66,8 @@
+     </div>
+     <th:block th:include="include :: footer" />
+     <script th:inline="javascript">
+-        var editFlag = [[${@permission.hasPermi('system:store:edit')}]];
+-        var removeFlag = [[${@permission.hasPermi('system:store:remove')}]];
++        var editFlag = [[${@permission.hasPermi('instoremanage:instore:edit')}]];
++        var removeFlag = [[${@permission.hasPermi('instoremanage:instore:remove')}]];
+         var prefix = ctx + "instoremanage/instore";
+ 
+         $(function() {
+Index: target/classes/application-druid.yml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># 数据源配置\r\nspring:\r\n    datasource:\r\n        type: com.alibaba.druid.pool.DruidDataSource\r\n        driverClassName: com.mysql.cj.jdbc.Driver\r\n        druid:\r\n            # 主库数据源\r\n            master:\r\n                url: jdbc:mysql://localhost:3306/ruoyi?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8\r\n                username: root\r\n                password: root\r\n            # 从库数据源\r\n            slave:\r\n                # 从数据源开关/默认关闭\r\n                enabled: false\r\n                url: \r\n                username: \r\n                password: \r\n            # 初始连接数\r\n            initialSize: 5\r\n            # 最小连接池数量\r\n            minIdle: 10\r\n            # 最大连接池数量\r\n            maxActive: 20\r\n            # 配置获取连接等待超时的时间\r\n            maxWait: 60000\r\n            # 配置间隔多久才进行一次检测，检测需要关闭的空闲连接，单位是毫秒\r\n            timeBetweenEvictionRunsMillis: 60000\r\n            # 配置一个连接在池中最小生存的时间，单位是毫秒\r\n            minEvictableIdleTimeMillis: 300000\r\n            # 配置一个连接在池中最大生存的时间，单位是毫秒\r\n            maxEvictableIdleTimeMillis: 900000\r\n            # 配置检测连接是否有效\r\n            validationQuery: SELECT 1 FROM DUAL\r\n            testWhileIdle: true\r\n            testOnBorrow: false\r\n            testOnReturn: false\r\n            webStatFilter: \r\n                enabled: true\r\n            statViewServlet:\r\n                enabled: true\r\n                # 设置白名单，不填则允许所有访问\r\n                allow:\r\n                url-pattern: /druid/*\r\n                # 控制台管理用户名和密码\r\n                login-username: \r\n                login-password: \r\n            filter:\r\n                stat:\r\n                    enabled: true\r\n                    # 慢SQL记录\r\n                    log-slow-sql: true\r\n                    slow-sql-millis: 1000\r\n                    merge-sql: true\r\n                wall:\r\n                    config:\r\n                        multi-statement-allow: true
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- target/classes/application-druid.yml	(revision ae38864788bcaced55ed12e4058257d2678a26cf)
++++ target/classes/application-druid.yml	(date 1609243350819)
+@@ -6,7 +6,7 @@
+         druid:
+             # 主库数据源
+             master:
+-                url: jdbc:mysql://localhost:3306/ruoyi?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8
++                url: jdbc:mysql://192.168.153.112:3306/ruoyi?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8
+                 username: root
+                 password: root
+             # 从库数据源
+Index: target/classes/templates/wms/instoremanage/minstore/minstore.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html lang=\"zh\" xmlns:th=\"http://www.thymeleaf.org\" xmlns:shiro=\"http://www.pollix.at/thymeleaf/shiro\">\r\n<head>\r\n    <th:block th:include=\"include :: header('材料入库信息列表')\" />\r\n</head>\r\n<body class=\"gray-bg\">\r\n     <div class=\"container-div\">\r\n        <div class=\"row\">\r\n            <div class=\"col-sm-12 search-collapse\">\r\n                <form id=\"formId\">\r\n                    <div class=\"select-list\">\r\n                        <ul>\r\n                            <li>\r\n                                <p>材料名称：</p>\r\n                                <input type=\"text\" name=\"minname\"/>\r\n                            </li>\r\n                            <li>\r\n                                <p>材料类型：</p>\r\n                                <input type=\"text\" name=\"mintype\"/>\r\n                                <!--<select name=\"mintype\" th:with=\"type=${@dict.getType('')}\">\r\n                                    <option value=\"\">所有</option>\r\n                                    <option th:each=\"dict : ${type}\" th:text=\"${dict.dictLabel}\" th:value=\"${dict.dictValue}\"></option>\r\n                                </select>-->\r\n                            </li>\r\n                            <li>\r\n                                <p>材料数量：</p>\r\n                                <input type=\"text\" name=\"minnum\"/>\r\n                            </li>\r\n                            <li class=\"select-time\">\r\n                                <p>入库时间：</p>\r\n                                <input type=\"text\" class=\"time-input\" id=\"startTime\" placeholder=\"开始时间\" name=\"params[beginMintime]\"/>\r\n                                <span>-</span>\r\n                                <input type=\"text\" class=\"time-input\" id=\"endTime\" placeholder=\"结束时间\" name=\"params[endMintime]\"/>\r\n                            </li>\r\n                            <li>\r\n                                <a class=\"btn btn-primary btn-rounded btn-sm\" onclick=\"$.table.search()\"><i class=\"fa fa-search\"></i>&nbsp;搜索</a>\r\n                                <a class=\"btn btn-warning btn-rounded btn-sm\" onclick=\"$.form.reset()\"><i class=\"fa fa-refresh\"></i>&nbsp;重置</a>\r\n                            </li>\r\n                        </ul>\r\n                    </div>\r\n                </form>\r\n            </div>\r\n\r\n            <div class=\"btn-group-sm\" id=\"toolbar\" role=\"group\">\r\n                <a class=\"btn btn-success\" onclick=\"$.operate.add()\" shiro:hasPermission=\"instoremanage:minstore:add\">\r\n                    <i class=\"fa fa-plus\"></i> 添加\r\n                </a>\r\n                <a class=\"btn btn-primary single disabled\" onclick=\"$.operate.edit()\" shiro:hasPermission=\"instoremanage:minstore:edit\">\r\n                    <i class=\"fa fa-edit\"></i> 修改\r\n                </a>\r\n                <a class=\"btn btn-danger multiple disabled\" onclick=\"$.operate.removeAll()\" shiro:hasPermission=\"instoremanage:minstore:remove\">\r\n                    <i class=\"fa fa-remove\"></i> 删除\r\n                </a>\r\n                <a class=\"btn btn-warning\" onclick=\"$.table.exportExcel()\" shiro:hasPermission=\"instoremanage:minstore:export\">\r\n                    <i class=\"fa fa-download\"></i> 导出\r\n                 </a>\r\n            </div>\r\n            <div class=\"col-sm-12 select-table table-striped\">\r\n                <table id=\"bootstrap-table\"></table>\r\n            </div>\r\n        </div>\r\n    </div>\r\n    <th:block th:include=\"include :: footer\" />\r\n    <script th:inline=\"javascript\">\r\n        var editFlag = [[${@permission.hasPermi('system:minstore:edit')}]];\r\n        var removeFlag = [[${@permission.hasPermi('system:minstore:remove')}]];\r\n        var prefix = ctx + \"instoremanage/minstore\";\r\n\r\n        $(function() {\r\n            var options = {\r\n                url: prefix + \"/list\",\r\n                createUrl: prefix + \"/add\",\r\n                updateUrl: prefix + \"/edit/{id}\",\r\n                removeUrl: prefix + \"/remove\",\r\n                exportUrl: prefix + \"/export\",\r\n                modalName: \"材料入库信息\",\r\n                columns: [{\r\n                    checkbox: true\r\n                },\r\n                {\r\n                    field : 'minid', \r\n                    title : '材料入库编号',\r\n                    visible: false\r\n                },\r\n                {\r\n                    field : 'minname', \r\n                    title : '材料名称'\r\n                },\r\n                {\r\n                    field : 'mintype', \r\n                    title : '材料类型'\r\n                },\r\n                {\r\n                    field : 'minnum', \r\n                    title : '材料数量'\r\n                },\r\n                {\r\n                    field : 'mintime', \r\n                    title : '入库时间'\r\n                },\r\n                {\r\n                    title: '操作',\r\n                    align: 'center',\r\n                    formatter: function(value, row, index) {\r\n                        var actions = [];\r\n                        actions.push('<a class=\"btn btn-success btn-xs ' + editFlag + '\" href=\"javascript:void(0)\" onclick=\"$.operate.edit(\\'' + row.minid + '\\')\"><i class=\"fa fa-edit\"></i>编辑</a> ');\r\n                        actions.push('<a class=\"btn btn-danger btn-xs ' + removeFlag + '\" href=\"javascript:void(0)\" onclick=\"$.operate.remove(\\'' + row.minid + '\\')\"><i class=\"fa fa-remove\"></i>删除</a>');\r\n                        return actions.join('');\r\n                    }\r\n                }]\r\n            };\r\n            $.table.init(options);\r\n        });\r\n    </script>\r\n</body>\r\n</html>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- target/classes/templates/wms/instoremanage/minstore/minstore.html	(revision ae38864788bcaced55ed12e4058257d2678a26cf)
++++ target/classes/templates/wms/instoremanage/minstore/minstore.html	(date 1609235881547)
+@@ -62,8 +62,8 @@
+     </div>
+     <th:block th:include="include :: footer" />
+     <script th:inline="javascript">
+-        var editFlag = [[${@permission.hasPermi('system:minstore:edit')}]];
+-        var removeFlag = [[${@permission.hasPermi('system:minstore:remove')}]];
++        var editFlag = [[${@permission.hasPermi('instoremanage:minstore:edit')}]];
++        var removeFlag = [[${@permission.hasPermi('instoremanage:minstore:remove')}]];
+         var prefix = ctx + "instoremanage/minstore";
+ 
+         $(function() {
+diff --git .idea/shelf/Uncommitted_changes_before_Update_at_2020_12_29_17_19__Default_Changelist_.xml .idea/shelf/Uncommitted_changes_before_Update_at_2020_12_29_17_19__Default_Changelist_.xml
