@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ruoyi.project.wms.workshopmanage.worker.mapper.TWorkerMapper">
+    
+    <resultMap type="TWorker" id="TWorkerResult">
+        <result property="wid"    column="wid"    />
+        <result property="wname"    column="wname"    />
+        <result property="wage"    column="wage"    />
+        <result property="wsex"    column="wsex"    />
+        <result property="whiredate"    column="whiredate"    />
+        <result property="wleavedate"    column="wleavedate"    />
+        <result property="wsalary"    column="wsalary"    />
+    </resultMap>
+
+    <sql id="selectTWorkerVo">
+        select wid, wname, wage, wsex, whiredate, wleavedate, wsalary from t_worker
+    </sql>
+
+    <select id="selectTWorkerList" parameterType="TWorker" resultMap="TWorkerResult">
+        <include refid="selectTWorkerVo"/>
+        <where>  
+            <if test="wname != null  and wname != ''"> and wname like concat('%', #{wname}, '%')</if>
+            <if test="wage != null  and wage != ''"> and wage = #{wage}</if>
+            <if test="wsex != null  and wsex != ''"> and wsex = #{wsex}</if>
+            <if test="whiredate != null "> and whiredate = #{whiredate}</if>
+            <if test="wleavedate != null "> and wleavedate = #{wleavedate}</if>
+            <if test="wsalary != null "> and wsalary = #{wsalary}</if>
+        </where>
+    </select>
+    
+    <select id="selectTWorkerById" parameterType="Long" resultMap="TWorkerResult">
+        <include refid="selectTWorkerVo"/>
+        where wid = #{wid}
+    </select>
+        
+    <insert id="insertTWorker" parameterType="TWorker" useGeneratedKeys="true" keyProperty="wid">
+        insert into t_worker
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="wname != null  and wname != ''">wname,</if>
+            <if test="wage != null  and wage != ''">wage,</if>
+            <if test="wsex != null  and wsex != ''">wsex,</if>
+            <if test="whiredate != null ">whiredate,</if>
+            <if test="wleavedate != null ">wleavedate,</if>
+            <if test="wsalary != null ">wsalary,</if>
+         </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="wname != null  and wname != ''">#{wname},</if>
+            <if test="wage != null  and wage != ''">#{wage},</if>
+            <if test="wsex != null  and wsex != ''">#{wsex},</if>
+            <if test="whiredate != null ">#{whiredate},</if>
+            <if test="wleavedate != null ">#{wleavedate},</if>
+            <if test="wsalary != null ">#{wsalary},</if>
+         </trim>
+    </insert>
+
+    <update id="updateTWorker" parameterType="TWorker">
+        update t_worker
+        <trim prefix="SET" suffixOverrides=",">
+            <if test="wname != null  and wname != ''">wname = #{wname},</if>
+            <if test="wage != null  and wage != ''">wage = #{wage},</if>
+            <if test="wsex != null  and wsex != ''">wsex = #{wsex},</if>
+            <if test="whiredate != null ">whiredate = #{whiredate},</if>
+            <if test="wleavedate != null ">wleavedate = #{wleavedate},</if>
+            <if test="wsalary != null ">wsalary = #{wsalary},</if>
+        </trim>
+        where wid = #{wid}
+    </update>
+
+    <delete id="deleteTWorkerById" parameterType="Long">
+        delete from t_worker where wid = #{wid}
+    </delete>
+
+    <delete id="deleteTWorkerByIds" parameterType="String">
+        delete from t_worker where wid in 
+        <foreach item="wid" collection="array" open="(" separator="," close=")">
+            #{wid}
+        </foreach>
+    </delete>
+    
+</mapper>
