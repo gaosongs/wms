@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ruoyi.project.wms.workshopmanage.workshop.mapper.TWorkshopMapper">
+    
+    <resultMap type="TWorkshop" id="TWorkshopResult">
+        <result property="wsid"    column="wsid"    />
+        <result property="wsname"    column="wsname"    />
+        <result property="wsaddress"    column="wsaddress"    />
+        <result property="wsstate"    column="wsstate"    />
+    </resultMap>
+
+    <sql id="selectTWorkshopVo">
+        select wsid, wsname, wsaddress, wsstate from t_workshop
+    </sql>
+
+    <select id="selectTWorkshopList" parameterType="TWorkshop" resultMap="TWorkshopResult">
+        <include refid="selectTWorkshopVo"/>
+        <where>  
+            <if test="wsname != null  and wsname != ''"> and wsname like concat('%', #{wsname}, '%')</if>
+            <if test="wsaddress != null  and wsaddress != ''"> and wsaddress = #{wsaddress}</if>
+            <if test="wsstate != null  and wsstate != ''"> and wsstate = #{wsstate}</if>
+        </where>
+    </select>
+    
+    <select id="selectTWorkshopById" parameterType="Long" resultMap="TWorkshopResult">
+        <include refid="selectTWorkshopVo"/>
+        where wsid = #{wsid}
+    </select>
+        
+    <insert id="insertTWorkshop" parameterType="TWorkshop" useGeneratedKeys="true" keyProperty="wsid">
+        insert into t_workshop
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="wsname != null  and wsname != ''">wsname,</if>
+            <if test="wsaddress != null  and wsaddress != ''">wsaddress,</if>
+            <if test="wsstate != null  and wsstate != ''">wsstate,</if>
+         </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="wsname != null  and wsname != ''">#{wsname},</if>
+            <if test="wsaddress != null  and wsaddress != ''">#{wsaddress},</if>
+            <if test="wsstate != null  and wsstate != ''">#{wsstate},</if>
+         </trim>
+    </insert>
+
+    <update id="updateTWorkshop" parameterType="TWorkshop">
+        update t_workshop
+        <trim prefix="SET" suffixOverrides=",">
+            <if test="wsname != null  and wsname != ''">wsname = #{wsname},</if>
+            <if test="wsaddress != null  and wsaddress != ''">wsaddress = #{wsaddress},</if>
+            <if test="wsstate != null  and wsstate != ''">wsstate = #{wsstate},</if>
+        </trim>
+        where wsid = #{wsid}
+    </update>
+
+    <delete id="deleteTWorkshopById" parameterType="Long">
+        delete from t_workshop where wsid = #{wsid}
+    </delete>
+
+    <delete id="deleteTWorkshopByIds" parameterType="String">
+        delete from t_workshop where wsid in 
+        <foreach item="wsid" collection="array" open="(" separator="," close=")">
+            #{wsid}
+        </foreach>
+    </delete>
+    
+</mapper>
