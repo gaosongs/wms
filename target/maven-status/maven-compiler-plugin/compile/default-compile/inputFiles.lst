@@ -79,6 +79,7 @@ D:\deskTop\java1-5ItemWMS\src\main\java\com\ruoyi\project\monitor\server\domain\
 D:\deskTop\java1-5ItemWMS\src\main\java\com\ruoyi\common\exception\user\UserDeleteException.java
 D:\deskTop\java1-5ItemWMS\src\main\java\com\ruoyi\common\exception\base\BaseException.java
 D:\deskTop\java1-5ItemWMS\src\main\java\com\ruoyi\project\system\notice\service\INoticeService.java
+D:\deskTop\java1-5ItemWMS\src\main\java\com\ruoyi\project\wms\instoremanage\minstore\service\impl\TMinstoreServiceImpl.java
 D:\deskTop\java1-5ItemWMS\src\main\java\com\ruoyi\project\tool\gen\controller\GenController.java
 D:\deskTop\java1-5ItemWMS\src\main\java\com\ruoyi\framework\shiro\web\session\SpringSessionValidationScheduler.java
 D:\deskTop\java1-5ItemWMS\src\main\java\com\ruoyi\project\system\menu\domain\Menu.java
@@ -102,6 +103,7 @@ D:\deskTop\java1-5ItemWMS\src\main\java\com\ruoyi\project\monitor\server\domain\
 D:\deskTop\java1-5ItemWMS\src\main\java\com\ruoyi\project\demo\controller\DemoTableController.java
 D:\deskTop\java1-5ItemWMS\src\main\java\com\ruoyi\common\exception\BusinessException.java
 D:\deskTop\java1-5ItemWMS\src\main\java\com\ruoyi\common\utils\DateUtils.java
+D:\deskTop\java1-5ItemWMS\src\main\java\com\ruoyi\project\wms\instoremanage\minstore\domain\TMinstore.java
 D:\deskTop\java1-5ItemWMS\src\main\java\com\ruoyi\project\wms\instoremanage\order\service\ITOrderService.java
 D:\deskTop\java1-5ItemWMS\src\main\java\com\ruoyi\project\demo\controller\DemoIconController.java
 D:\deskTop\java1-5ItemWMS\src\main\java\com\ruoyi\common\exception\file\InvalidExtensionException.java
@@ -190,12 +192,15 @@ D:\deskTop\java1-5ItemWMS\src\main\java\com\ruoyi\common\exception\job\TaskExcep
 D:\deskTop\java1-5ItemWMS\src\main\java\com\ruoyi\project\system\dict\controller\DictTypeController.java
 D:\deskTop\java1-5ItemWMS\src\main\java\com\ruoyi\common\constant\UserConstants.java
 D:\deskTop\java1-5ItemWMS\src\main\java\com\ruoyi\project\wms\outstoremanage\store\controller\TOutStoreController.java
+D:\deskTop\java1-5ItemWMS\src\main\java\com\ruoyi\project\wms\instoremanage\minstore\controller\TMinstoreController.java
+D:\deskTop\java1-5ItemWMS\src\main\java\com\ruoyi\project\wms\instoremanage\minstore\mapper\TMinstoreMapper.java
 D:\deskTop\java1-5ItemWMS\src\main\java\com\ruoyi\common\utils\bean\BeanUtils.java
 D:\deskTop\java1-5ItemWMS\src\main\java\com\ruoyi\project\monitor\job\mapper\JobLogMapper.java
 D:\deskTop\java1-5ItemWMS\src\main\java\com\ruoyi\project\tool\gen\mapper\GenTableColumnMapper.java
 D:\deskTop\java1-5ItemWMS\src\main\java\com\ruoyi\project\wms\instoremanage\instore\service\impl\TInStoreServiceImpl.java
 D:\deskTop\java1-5ItemWMS\src\main\java\com\ruoyi\framework\config\ServerConfig.java
 D:\deskTop\java1-5ItemWMS\src\main\java\com\ruoyi\project\wms\instoremanage\customer\service\ITCustomerService.java
+D:\deskTop\java1-5ItemWMS\src\main\java\com\ruoyi\project\wms\instoremanage\minstore\service\ITMinstoreService.java
 D:\deskTop\java1-5ItemWMS\src\main\java\com\ruoyi\project\wms\instoremanage\customer\controller\TCustomerController.java
 D:\deskTop\java1-5ItemWMS\src\main\java\com\ruoyi\project\monitor\operlog\domain\OperLog.java
 D:\deskTop\java1-5ItemWMS\src\main\java\com\ruoyi\project\system\user\domain\UserPost.java

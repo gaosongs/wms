@@ -7,6 +7,7 @@ com\ruoyi\project\monitor\logininfor\service\LogininforServiceImpl.class
 com\ruoyi\project\tool\gen\service\GenTableColumnServiceImpl.class
 com\ruoyi\common\utils\MapDataUtil.class
 com\ruoyi\framework\shiro\web\session\SpringSessionValidationScheduler$1.class
+com\ruoyi\project\wms\instoremanage\minstore\domain\TMinstore.class
 com\ruoyi\project\system\dict\service\IDictTypeService.class
 com\ruoyi\framework\manager\factory\AsyncFactory$3.class
 com\ruoyi\framework\shiro\web\filter\LogoutFilter.class
@@ -87,6 +88,7 @@ com\ruoyi\project\monitor\operlog\controller\OperlogController.class
 com\ruoyi\project\monitor\job\domain\Job.class
 com\ruoyi\project\monitor\logininfor\controller\LogininforController.class
 com\ruoyi\project\tool\gen\mapper\GenTableMapper.class
+com\ruoyi\project\wms\instoremanage\minstore\controller\TMinstoreController.class
 com\ruoyi\RuoYiServletInitializer.class
 com\ruoyi\common\utils\http\HttpUtils$TrustAnyTrustManager.class
 com\ruoyi\framework\config\ThreadPoolConfig$1.class
@@ -150,7 +152,9 @@ com\ruoyi\project\tool\gen\util\GenUtils.class
 com\ruoyi\common\exception\user\UserNotExistsException.class
 com\ruoyi\framework\shiro\web\session\SpringSessionValidationScheduler.class
 com\ruoyi\project\system\role\mapper\RoleDeptMapper.class
+com\ruoyi\project\wms\instoremanage\minstore\mapper\TMinstoreMapper.class
 com\ruoyi\project\system\menu\mapper\MenuMapper.class
+com\ruoyi\project\wms\instoremanage\minstore\service\ITMinstoreService.class
 com\ruoyi\framework\manager\factory\AsyncFactory.class
 com\ruoyi\project\wms\outstoremanage\store\service\ITOutStoreService.class
 com\ruoyi\framework\shiro\realm\UserRealm.class
@@ -280,6 +284,7 @@ com\ruoyi\common\utils\ServletUtils.class
 com\ruoyi\framework\config\ResourcesConfig.class
 com\ruoyi\project\system\role\mapper\RoleMenuMapper.class
 com\ruoyi\framework\config\I18nConfig.class
+com\ruoyi\project\wms\instoremanage\minstore\service\impl\TMinstoreServiceImpl.class
 com\ruoyi\common\exception\file\FileNameLengthLimitExceededException.class
 com\ruoyi\project\wms\instoremanage\customer\domain\TCustomer.class
 com\ruoyi\framework\aspectj\lang\annotation\Excel$ColumnType.class
