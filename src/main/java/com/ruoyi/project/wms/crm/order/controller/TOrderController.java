@@ -1,25 +1,20 @@
 package com.ruoyi.project.wms.crm.order.controller;
 
-import java.util.List;
-
-
 import com.ruoyi.common.utils.poi.ExcelUtil;
+import com.ruoyi.framework.aspectj.lang.annotation.Log;
+import com.ruoyi.framework.aspectj.lang.enums.BusinessType;
+import com.ruoyi.framework.web.controller.BaseController;
+import com.ruoyi.framework.web.domain.AjaxResult;
+import com.ruoyi.framework.web.page.TableDataInfo;
 import com.ruoyi.project.wms.crm.order.domain.TOrder;
 import com.ruoyi.project.wms.crm.order.service.ITOrderService;
 import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
-import com.ruoyi.framework.aspectj.lang.annotation.Log;
-import com.ruoyi.framework.aspectj.lang.enums.BusinessType;
-import com.ruoyi.framework.web.controller.BaseController;
-import com.ruoyi.framework.web.domain.AjaxResult;
-import com.ruoyi.framework.web.page.TableDataInfo;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
 
 /**
  * 【请填写功能名称】Controller
@@ -28,15 +23,15 @@ import com.ruoyi.framework.web.page.TableDataInfo;
  * @date 2020-12-28
  */
 @Controller
-@RequestMapping("/instoremanage/order")
+@RequestMapping("/crm/order")
 public class TOrderController extends BaseController
 {
-    private String prefix = "wms/instoremanage/order";
+    private String prefix = "wms/crm/order";
 
     @Autowired
     private ITOrderService tOrderService;
 
-    @RequiresPermissions("instoremanage:order:view")
+    @RequiresPermissions("crm:order:view")
     @GetMapping()
     public String order()
     {
@@ -46,7 +41,7 @@ public class TOrderController extends BaseController
     /**
      * 查询【请填写功能名称】列表
      */
-    @RequiresPermissions("instoremanage:order:list")
+    @RequiresPermissions("crm:order:list")
     @PostMapping("/list")
     @ResponseBody
     public TableDataInfo list(TOrder tOrder)
@@ -59,7 +54,7 @@ public class TOrderController extends BaseController
     /**
      * 导出【请填写功能名称】列表
      */
-    @RequiresPermissions("instoremanage:order:export")
+    @RequiresPermissions("crm:order:export")
     @Log(title = "【导出用户订单信息】", businessType = BusinessType.EXPORT)
     @PostMapping("/export")
     @ResponseBody
@@ -82,7 +77,7 @@ public class TOrderController extends BaseController
     /**
      * 新增保存【请填写功能名称】
      */
-    @RequiresPermissions("instoremanage:order:add")
+    @RequiresPermissions("crm:order:add")
     @Log(title = "【新增用户订单信息】", businessType = BusinessType.INSERT)
     @PostMapping("/add")
     @ResponseBody
@@ -105,7 +100,7 @@ public class TOrderController extends BaseController
     /**
      * 修改保存【请填写功能名称】
      */
-    @RequiresPermissions("instoremanage:order:edit")
+    @RequiresPermissions("crm:order:edit")
     @Log(title = "【修改用户订单信息】", businessType = BusinessType.UPDATE)
     @PostMapping("/edit")
     @ResponseBody
@@ -117,7 +112,7 @@ public class TOrderController extends BaseController
     /**
      * 删除【请填写功能名称】
      */
-    @RequiresPermissions("instoremanage:order:remove")
+    @RequiresPermissions("crm:order:remove")
     @Log(title = "【删除用户订单信息】", businessType = BusinessType.DELETE)
     @PostMapping( "/remove")
     @ResponseBody
