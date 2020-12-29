@@ -5,6 +5,7 @@ com\ruoyi\project\wms\instoremanage\instore\controller\TInStoreController.class
 com\ruoyi\project\wms\storemanage\materials\service\ITMaterialsService.class
 com\ruoyi\framework\shiro\service\LoginService.class
 com\ruoyi\project\monitor\logininfor\service\LogininforServiceImpl.class
+com\ruoyi\project\wms\workshopmanage\worker\service\impl\TWorkerServiceImpl.class
 com\ruoyi\project\tool\gen\service\GenTableColumnServiceImpl.class
 com\ruoyi\common\utils\MapDataUtil.class
 com\ruoyi\framework\shiro\web\session\SpringSessionValidationScheduler$1.class
@@ -22,6 +23,7 @@ com\ruoyi\project\system\dept\controller\DeptController.class
 com\ruoyi\project\system\user\service\IUserService.class
 com\ruoyi\common\xss\XssFilter.class
 com\ruoyi\project\system\role\domain\RoleDept.class
+com\ruoyi\project\wms\crm\order\controller\TOrderController.class
 com\ruoyi\common\utils\bean\BeanUtils.class
 com\ruoyi\project\system\role\service\IRoleService.class
 com\ruoyi\common\utils\sql\SqlUtil.class
@@ -31,12 +33,12 @@ com\ruoyi\framework\config\properties\DruidProperties.class
 com\ruoyi\framework\manager\AsyncManager.class
 com\ruoyi\project\monitor\server\domain\Jvm.class
 com\ruoyi\framework\interceptor\impl\SameUrlDataInterceptor.class
-com\ruoyi\project\wms\instoremanage\order\domain\TOrder.class
 com\ruoyi\project\system\menu\controller\MenuController.class
 com\ruoyi\project\wms\instoremanage\instore\service\ITInStoreService.class
 com\ruoyi\project\wms\purchasemanagement\purchase\service\ITPurchaseService.class
 com\ruoyi\common\utils\StringUtils.class
 com\ruoyi\project\system\role\mapper\RoleMapper.class
+com\ruoyi\project\wms\workshopmanage\worker\controller\TWorkerController.class
 com\ruoyi\project\system\menu\domain\Menu.class
 com\ruoyi\project\wms\storemanage\store\service\ITStoreService.class
 com\ruoyi\common\utils\DateUtils.class
@@ -48,6 +50,7 @@ com\ruoyi\project\monitor\operlog\service\IOperLogService.class
 com\ruoyi\common\exception\user\CaptchaException.class
 com\ruoyi\framework\manager\factory\AsyncFactory$1.class
 com\ruoyi\project\monitor\online\mapper\UserOnlineMapper.class
+com\ruoyi\project\wms\crm\order\service\impl\TOrderServiceImpl.class
 com\ruoyi\project\wms\storemanage\store\mapper\TStoreMapper.class
 com\ruoyi\common\utils\http\HttpUtils.class
 com\ruoyi\project\wms\storemanage\store\service\impl\TStoreServiceImpl.class
@@ -97,6 +100,7 @@ com\ruoyi\RuoYiServletInitializer.class
 com\ruoyi\common\utils\http\HttpUtils$TrustAnyTrustManager.class
 com\ruoyi\framework\config\ThreadPoolConfig$1.class
 com\ruoyi\project\monitor\online\service\UserOnlineServiceImpl.class
+com\ruoyi\project\wms\crm\order\mapper\TOrderMapper.class
 com\ruoyi\common\utils\spring\SpringUtils.class
 com\ruoyi\project\system\user\controller\LoginController.class
 com\ruoyi\project\system\notice\domain\Notice.class
@@ -144,7 +148,6 @@ com\ruoyi\common\utils\IpUtils.class
 com\ruoyi\project\wms\storemanage\materials\domain\TMaterials.class
 com\ruoyi\project\wms\workshopmanage\demand\mapper\TDemandMapper.class
 com\ruoyi\framework\aspectj\LogAspect.class
-com\ruoyi\project\wms\instoremanage\order\service\ITOrderService.class
 com\ruoyi\project\monitor\server\domain\Sys.class
 com\ruoyi\project\system\role\domain\RoleMenu.class
 com\ruoyi\project\monitor\job\service\JobServiceImpl.class
@@ -184,6 +187,7 @@ com\ruoyi\framework\shiro\web\filter\captcha\CaptchaValidateFilter.class
 com\ruoyi\framework\aspectj\lang\annotation\DataScope.class
 com\ruoyi\framework\aspectj\lang\enums\BusinessStatus.class
 com\ruoyi\project\wms\instoremanage\instore\domain\TInStore.class
+com\ruoyi\project\wms\crm\order\service\ITOrderService.class
 com\ruoyi\common\exception\job\TaskException$Code.class
 com\ruoyi\common\exception\user\UserPasswordRetryLimitCountException.class
 com\ruoyi\project\monitor\job\service\IJobLogService.class
@@ -192,11 +196,13 @@ com\ruoyi\project\monitor\server\controller\ServerController.class
 com\ruoyi\project\system\post\service\IPostService.class
 com\ruoyi\common\utils\Md5Utils.class
 com\ruoyi\common\exception\user\UserException.class
+com\ruoyi\project\wms\crm\order\domain\TOrder.class
 com\ruoyi\common\utils\MessageUtils.class
 com\ruoyi\framework\web\domain\AjaxResult.class
 com\ruoyi\common\utils\LogUtils.class
 com\ruoyi\common\utils\ExceptionUtil.class
 com\ruoyi\project\system\dict\domain\DictType.class
+com\ruoyi\project\wms\workshopmanage\worker\domain\TWorker.class
 com\ruoyi\project\system\notice\controller\NoticeController.class
 com\ruoyi\framework\aspectj\DataScopeAspect.class
 com\ruoyi\project\system\dict\controller\DictDataController.class
@@ -235,9 +241,9 @@ com\ruoyi\common\utils\TreeUtils.class
 com\ruoyi\project\wms\outstoremanage\trans\mapper\TTransMapper.class
 com\ruoyi\framework\datasource\DynamicDataSourceContextHolder.class
 com\ruoyi\project\system\dict\domain\DictData.class
-com\ruoyi\project\wms\instoremanage\order\mapper\TOrderMapper.class
 com\ruoyi\project\wms\outstoremanage\trans\service\ITTransService.class
 com\ruoyi\project\demo\controller\DemoReportController.class
+com\ruoyi\project\wms\workshopmanage\worker\service\ITWorkerService.class
 com\ruoyi\framework\web\service\ConfigService.class
 com\ruoyi\project\monitor\server\domain\Server.class
 com\ruoyi\project\wms\workshopmanage\demand\domain\TDemand.class
@@ -248,7 +254,6 @@ com\ruoyi\project\monitor\online\domain\OnlineSession.class
 com\ruoyi\framework\config\ServerConfig.class
 com\ruoyi\project\monitor\job\util\ScheduleUtils.class
 com\ruoyi\project\monitor\operlog\mapper\OperLogMapper.class
-com\ruoyi\project\wms\instoremanage\order\service\impl\TOrderServiceImpl.class
 com\ruoyi\project\system\dict\service\DictDataServiceImpl.class
 com\ruoyi\common\constant\GenConstants.class
 com\ruoyi\project\wms\workshopmanage\workshop\mapper\TWorkshopMapper.class
@@ -281,6 +286,7 @@ com\ruoyi\framework\config\DruidConfig.class
 com\ruoyi\framework\shiro\web\session\OnlineWebSessionManager.class
 com\ruoyi\framework\config\SwaggerConfig.class
 com\ruoyi\framework\web\page\TableDataInfo.class
+com\ruoyi\project\wms\workshopmanage\worker\mapper\TWorkerMapper.class
 com\ruoyi\framework\config\CaptchaConfig.class
 com\ruoyi\project\tool\gen\domain\GenTable.class
 com\ruoyi\project\system\post\service\PostServiceImpl.class
@@ -310,6 +316,5 @@ com\ruoyi\common\exception\file\FileNameLengthLimitExceededException.class
 com\ruoyi\framework\aspectj\lang\annotation\Excel$ColumnType.class
 com\ruoyi\framework\shiro\web\filter\kickout\KickoutSessionFilter.class
 com\ruoyi\common\exception\BusinessException.class
-com\ruoyi\project\wms\instoremanage\order\controller\TOrderController.class
 com\ruoyi\common\utils\security\PermissionUtils.class
 com\ruoyi\project\system\config\controller\ConfigController.class
