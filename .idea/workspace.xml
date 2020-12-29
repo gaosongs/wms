@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ff97a5e-b438-4d92-8857-accf1aa84f80" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_12_29_17_19_[Default_Changelist]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Ting.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Ting.jar.original" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +11,9 @@
   </component>
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -33,6 +31,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
   <component name="RunManager">
@@ -48,9 +48,25 @@
     <configuration />
   </component>
   <component name="TaskManager">
+    <task id="LOCAL-00001" summary="123">
+      <created>1609233599531</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1609233599531</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="123" />
+    <option name="LAST_COMMIT_MESSAGE" value="123" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="257" y="0" key="CommitChangelistDialog2" timestamp="1609233598680">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="257" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1609233598680" />
     <state width="1492" height="263" key="GridCell.Tab.0.bottom" timestamp="1609233557144">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -83,5 +99,13 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1492" height="263" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1609233557144" />
+    <state x="403" y="192" key="MultipleFileMergeDialog" timestamp="1609233622134">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="403" y="192" key="MultipleFileMergeDialog/0.0.1536.864@0.0.1536.864" timestamp="1609233622134" />
+    <state x="431" y="219" key="git4idea.merge.GitPullDialog" timestamp="1609233607006">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="431" y="219" key="git4idea.merge.GitPullDialog/0.0.1536.864@0.0.1536.864" timestamp="1609233607006" />
   </component>
 </project>
