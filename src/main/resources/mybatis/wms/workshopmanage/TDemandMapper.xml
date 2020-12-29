@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ruoyi.project.wms.workshopmanage.demand.mapper.TDemandMapper">
+    
+    <resultMap type="TDemand" id="TDemandResult">
+        <result property="did"    column="did"    />
+        <result property="dname"    column="dname"    />
+        <result property="dnum"    column="dnum"    />
+        <result property="dtype"    column="dtype"    />
+    </resultMap>
+
+    <sql id="selectTDemandVo">
+        select did, dname, dnum, dtype from t_demand
+    </sql>
+
+    <select id="selectTDemandList" parameterType="TDemand" resultMap="TDemandResult">
+        <include refid="selectTDemandVo"/>
+        <where>  
+            <if test="dname != null  and dname != ''"> and dname like concat('%', #{dname}, '%')</if>
+            <if test="dnum != null "> and dnum = #{dnum}</if>
+            <if test="dtype != null  and dtype != ''"> and dtype = #{dtype}</if>
+        </where>
+    </select>
+    
+    <select id="selectTDemandById" parameterType="Long" resultMap="TDemandResult">
+        <include refid="selectTDemandVo"/>
+        where did = #{did}
+    </select>
+        
+    <insert id="insertTDemand" parameterType="TDemand" useGeneratedKeys="true" keyProperty="did">
+        insert into t_demand
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="dname != null  and dname != ''">dname,</if>
+            <if test="dnum != null ">dnum,</if>
+            <if test="dtype != null  and dtype != ''">dtype,</if>
+         </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="dname != null  and dname != ''">#{dname},</if>
+            <if test="dnum != null ">#{dnum},</if>
+            <if test="dtype != null  and dtype != ''">#{dtype},</if>
+         </trim>
+    </insert>
+
+    <update id="updateTDemand" parameterType="TDemand">
+        update t_demand
+        <trim prefix="SET" suffixOverrides=",">
+            <if test="dname != null  and dname != ''">dname = #{dname},</if>
+            <if test="dnum != null ">dnum = #{dnum},</if>
+            <if test="dtype != null  and dtype != ''">dtype = #{dtype},</if>
+        </trim>
+        where did = #{did}
+    </update>
+
+    <delete id="deleteTDemandById" parameterType="Long">
+        delete from t_demand where did = #{did}
+    </delete>
+
+    <delete id="deleteTDemandByIds" parameterType="String">
+        delete from t_demand where did in 
+        <foreach item="did" collection="array" open="(" separator="," close=")">
+            #{did}
+        </foreach>
+    </delete>
+    
+</mapper>

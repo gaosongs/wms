@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ruoyi.project.wms.purchasemanagement.purchase.mapper.TPurchaseMapper">
+    
+    <resultMap type="TPurchase" id="TPurchaseResult">
+        <result property="pid"    column="pid"    />
+        <result property="pname"    column="pname"    />
+        <result property="ptype"    column="ptype"    />
+        <result property="pnum"    column="pnum"    />
+        <result property="ptime"    column="ptime"    />
+        <result property="paddress"    column="paddress"    />
+    </resultMap>
+
+    <sql id="selectTPurchaseVo">
+        select pid, pname, ptype, pnum, ptime, paddress from t_purchase
+    </sql>
+
+    <select id="selectTPurchaseList" parameterType="TPurchase" resultMap="TPurchaseResult">
+        <include refid="selectTPurchaseVo"/>
+        <where>  
+            <if test="pname != null  and pname != ''"> and pname like concat('%', #{pname}, '%')</if>
+            <if test="ptype != null  and ptype != ''"> and ptype = #{ptype}</if>
+            <if test="pnum != null "> and pnum = #{pnum}</if>
+            <if test="ptime != null "> and ptime = #{ptime}</if>
+            <if test="paddress != null  and paddress != ''"> and paddress = #{paddress}</if>
+        </where>
+    </select>
+    
+    <select id="selectTPurchaseById" parameterType="Long" resultMap="TPurchaseResult">
+        <include refid="selectTPurchaseVo"/>
+        where pid = #{pid}
+    </select>
+        
+    <insert id="insertTPurchase" parameterType="TPurchase" useGeneratedKeys="true" keyProperty="pid">
+        insert into t_purchase
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="pname != null  and pname != ''">pname,</if>
+            <if test="ptype != null  and ptype != ''">ptype,</if>
+            <if test="pnum != null ">pnum,</if>
+            <if test="ptime != null ">ptime,</if>
+            <if test="paddress != null  and paddress != ''">paddress,</if>
+         </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="pname != null  and pname != ''">#{pname},</if>
+            <if test="ptype != null  and ptype != ''">#{ptype},</if>
+            <if test="pnum != null ">#{pnum},</if>
+            <if test="ptime != null ">#{ptime},</if>
+            <if test="paddress != null  and paddress != ''">#{paddress},</if>
+         </trim>
+    </insert>
+
+    <update id="updateTPurchase" parameterType="TPurchase">
+        update t_purchase
+        <trim prefix="SET" suffixOverrides=",">
+            <if test="pname != null  and pname != ''">pname = #{pname},</if>
+            <if test="ptype != null  and ptype != ''">ptype = #{ptype},</if>
+            <if test="pnum != null ">pnum = #{pnum},</if>
+            <if test="ptime != null ">ptime = #{ptime},</if>
+            <if test="paddress != null  and paddress != ''">paddress = #{paddress},</if>
+        </trim>
+        where pid = #{pid}
+    </update>
+
+    <delete id="deleteTPurchaseById" parameterType="Long">
+        delete from t_purchase where pid = #{pid}
+    </delete>
+
+    <delete id="deleteTPurchaseByIds" parameterType="String">
+        delete from t_purchase where pid in 
+        <foreach item="pid" collection="array" open="(" separator="," close=")">
+            #{pid}
+        </foreach>
+    </delete>
+    
+</mapper>
