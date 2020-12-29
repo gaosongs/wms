@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5ff97a5e-b438-4d92-8857-accf1aa84f80" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_12_29_17_19_[Default_Changelist]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Ting.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Ting.jar.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
@@ -29,5 +43,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1492" height="263" key="GridCell.Tab.0.bottom" timestamp="1609233557144">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1492" height="263" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1609233557144" />
+    <state width="1492" height="263" key="GridCell.Tab.0.center" timestamp="1609233557144">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1492" height="263" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1609233557144" />
+    <state width="1492" height="263" key="GridCell.Tab.0.left" timestamp="1609233557144">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1492" height="263" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1609233557144" />
+    <state width="1492" height="263" key="GridCell.Tab.0.right" timestamp="1609233557144">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1492" height="263" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1609233557144" />
+    <state width="1492" height="263" key="GridCell.Tab.1.bottom" timestamp="1609233557144">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1492" height="263" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1609233557144" />
+    <state width="1492" height="263" key="GridCell.Tab.1.center" timestamp="1609233557144">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1492" height="263" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1609233557144" />
+    <state width="1492" height="263" key="GridCell.Tab.1.left" timestamp="1609233557144">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1492" height="263" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1609233557144" />
+    <state width="1492" height="263" key="GridCell.Tab.1.right" timestamp="1609233557144">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1492" height="263" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1609233557144" />
   </component>
 </project>

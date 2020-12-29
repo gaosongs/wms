@@ -1,0 +1,151 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"CodeInsightWorkspaceSettings\">\r\n    <option name=\"optimizeImportsOnTheFly\" value=\"true\" />\r\n  </component>\r\n  <component name=\"MavenImportPreferences\">\r\n    <option name=\"generalSettings\">\r\n      <MavenGeneralSettings>\r\n        <option name=\"localRepository\" value=\"D:\\apache-maven-3.6.3\\maven_repository\" />\r\n        <option name=\"mavenHome\" value=\"D:/apache-maven-3.6.3\" />\r\n        <option name=\"userSettingsFile\" value=\"D:\\apache-maven-3.6.3\\conf\\settings.xml\" />\r\n      </MavenGeneralSettings>\r\n    </option>\r\n  </component>\r\n  <component name=\"MavenRunner\">\r\n    <option name=\"vmOptions\" value=\"-DarchetypeCatalog=internal\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"settings.editor.selected.configurable\" value=\"editor.preferences.import\" />\r\n  </component>\r\n  <component name=\"RunManager\">\r\n    <configuration name=\"RuoYiApplication\" type=\"SpringBootApplicationConfigurationType\" factoryName=\"Spring Boot\">\r\n      <module name=\"Ting\" />\r\n      <option name=\"SPRING_BOOT_MAIN_CLASS\" value=\"com.ruoyi.RuoYiApplication\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision 9edd80d3d0abeae4e01ce75b9e4a26c6573f7c61)
++++ .idea/workspace.xml	(date 1609232760897)
+@@ -1,7 +1,19 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
++  <component name="ChangeListManager">
++    <list default="true" id="5ff97a5e-b438-4d92-8857-accf1aa84f80" name="Default Changelist" comment="">
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++    </list>
++    <option name="SHOW_DIALOG" value="false" />
++    <option name="HIGHLIGHT_CONFLICTS" value="true" />
++    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
++    <option name="LAST_RESOLUTION" value="IGNORE" />
++  </component>
+   <component name="CodeInsightWorkspaceSettings">
+     <option name="optimizeImportsOnTheFly" value="true" />
++  </component>
++  <component name="Git.Settings">
++    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
+   <component name="MavenImportPreferences">
+     <option name="generalSettings">
+@@ -13,13 +25,31 @@
+     </option>
+   </component>
+   <component name="MavenRunner">
++    <option name="delegateBuildToMaven" value="true" />
+     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+   </component>
++  <component name="ProjectId" id="1mJzirx2yyDKJpSZMIDBlJ28v8D" />
+   <component name="ProjectViewState">
+     <option name="showLibraryContents" value="true" />
+   </component>
+   <component name="PropertiesComponent">
+-    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
++    <property name="RequestMappingsPanelOrder0" value="0" />
++    <property name="RequestMappingsPanelOrder1" value="1" />
++    <property name="RequestMappingsPanelWidth0" value="75" />
++    <property name="RequestMappingsPanelWidth1" value="75" />
++    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
++    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
++    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
++    <property name="WebServerToolWindowFactoryState" value="false" />
++    <property name="aspect.path.notification.shown" value="true" />
++    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
++    <property name="node.js.detected.package.eslint" value="true" />
++    <property name="node.js.detected.package.tslint" value="true" />
++    <property name="node.js.path.for.package.eslint" value="project" />
++    <property name="node.js.path.for.package.tslint" value="project" />
++    <property name="node.js.selected.package.eslint" value="(autodetect)" />
++    <property name="node.js.selected.package.tslint" value="(autodetect)" />
++    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+   </component>
+   <component name="RunManager">
+     <configuration name="RuoYiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+@@ -30,4 +60,87 @@
+       </method>
+     </configuration>
+   </component>
++  <component name="SvnConfiguration">
++    <configuration />
++  </component>
++  <component name="TaskManager">
++    <task active="true" id="Default" summary="Default task">
++      <changelist id="5ff97a5e-b438-4d92-8857-accf1aa84f80" name="Default Changelist" comment="" />
++      <created>1609226611461</created>
++      <option name="number" value="Default" />
++      <option name="presentableId" value="Default" />
++      <updated>1609226611461</updated>
++      <workItem from="1609226617068" duration="2785000" />
++    </task>
++    <task id="LOCAL-00001" summary="新增crm:客户管理分支&#10;新增workshopmanager/workshop">
++      <created>1609226894098</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1609226894098</updated>
++    </task>
++    <option name="localTasksCounter" value="2" />
++    <servers />
++  </component>
++  <component name="TypeScriptGeneratedFilesManager">
++    <option name="version" value="2" />
++  </component>
++  <component name="VcsManagerConfiguration">
++    <MESSAGE value="新增crm:客户管理分支&#10;新增workshopmanager/workshop" />
++    <option name="LAST_COMMIT_MESSAGE" value="新增crm:客户管理分支&#10;新增workshopmanager/workshop" />
++  </component>
++  <component name="WindowStateProjectService">
++    <state x="255" y="0" key="CommitChangelistDialog2" timestamp="1609226892819">
++      <screen x="0" y="0" width="1536" height="864" />
++    </state>
++    <state x="255" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1609226892819" />
++    <state width="1492" height="263" key="GridCell.Tab.0.bottom" timestamp="1609231949449">
++      <screen x="0" y="0" width="1536" height="864" />
++    </state>
++    <state width="1492" height="263" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1609231949449" />
++    <state width="1492" height="263" key="GridCell.Tab.0.center" timestamp="1609231949449">
++      <screen x="0" y="0" width="1536" height="864" />
++    </state>
++    <state width="1492" height="263" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1609231949449" />
++    <state width="1492" height="263" key="GridCell.Tab.0.left" timestamp="1609231949449">
++      <screen x="0" y="0" width="1536" height="864" />
++    </state>
++    <state width="1492" height="263" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1609231949449" />
++    <state width="1492" height="263" key="GridCell.Tab.0.right" timestamp="1609231949449">
++      <screen x="0" y="0" width="1536" height="864" />
++    </state>
++    <state width="1492" height="263" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1609231949449" />
++    <state width="1492" height="263" key="GridCell.Tab.1.bottom" timestamp="1609231949449">
++      <screen x="0" y="0" width="1536" height="864" />
++    </state>
++    <state width="1492" height="263" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1609231949449" />
++    <state width="1492" height="263" key="GridCell.Tab.1.center" timestamp="1609231949449">
++      <screen x="0" y="0" width="1536" height="864" />
++    </state>
++    <state width="1492" height="263" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1609231949449" />
++    <state width="1492" height="263" key="GridCell.Tab.1.left" timestamp="1609231949449">
++      <screen x="0" y="0" width="1536" height="864" />
++    </state>
++    <state width="1492" height="263" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1609231949449" />
++    <state width="1492" height="263" key="GridCell.Tab.1.right" timestamp="1609231949449">
++      <screen x="0" y="0" width="1536" height="864" />
++    </state>
++    <state width="1492" height="263" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1609231949449" />
++    <state x="287" y="112" key="SettingsEditor" timestamp="1609232758738">
++      <screen x="0" y="0" width="1536" height="864" />
++    </state>
++    <state x="287" y="112" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1609232758738" />
++    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1609227018902">
++      <screen x="0" y="0" width="1536" height="864" />
++    </state>
++    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1609227018902" />
++    <state x="564" y="345" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609226907031">
++      <screen x="0" y="0" width="1536" height="864" />
++    </state>
++    <state x="564" y="345" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864@0.0.1536.864" timestamp="1609226907031" />
++    <state x="431" y="219" key="git4idea.merge.GitPullDialog" timestamp="1609226994761">
++      <screen x="0" y="0" width="1536" height="864" />
++    </state>
++    <state x="431" y="219" key="git4idea.merge.GitPullDialog/0.0.1536.864@0.0.1536.864" timestamp="1609226994761" />
++  </component>
+ </project>
+\ No newline at end of file
