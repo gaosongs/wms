@@ -3,74 +3,191 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="00cc9b85-a71f-4141-96fd-e923c5828275" name="Default Changelist" comment="合并主分支">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="6e6a5b8a-bd6c-4ee3-bf40-debdf593bc9c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_12_29_17_19_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_12_29_17_19__Default_Changelist_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ting.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ruoyi/RuoYiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ruoyi/RuoYiApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/Arith.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/Arith.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/DateUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/DateUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/ExceptionUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/ExceptionUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/IpUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/IpUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/LogUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/LogUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/MapDataUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/MapDataUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/Md5Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/Md5Utils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/ServletUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/ServletUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/StringUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/StringUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/Threads.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/Threads.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/TreeUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/TreeUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/bean/BeanUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/bean/BeanUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/file/FileUploadUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/file/FileUploadUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/file/FileUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/file/FileUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/file/MimeTypeUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/file/MimeTypeUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/html/EscapeUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/html/EscapeUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/http/HttpUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/http/HttpUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/poi/ExcelUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/poi/ExcelUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/reflect/ReflectUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/reflect/ReflectUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/security/PermissionUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/security/PermissionUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/security/ShiroUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/security/ShiroUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/text/CharsetKit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/text/CharsetKit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/text/Convert.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/text/Convert.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/text/StrFormatter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/common/utils/text/StrFormatter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/common/xss/XssFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/common/xss/XssFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/common/xss/XssHttpServletRequestWrapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/common/xss/XssHttpServletRequestWrapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/aspectj/DataScopeAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/aspectj/DataScopeAspect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/aspectj/DataSourceAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/aspectj/DataSourceAspect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/aspectj/LogAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/aspectj/LogAspect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/config/DruidConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/config/DruidConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/config/KaptchaTextCreator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/config/KaptchaTextCreator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/config/MyBatisConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/config/MyBatisConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/config/ShiroConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/config/ShiroConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/config/ThreadPoolConfig$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/config/ThreadPoolConfig$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/interceptor/RepeatSubmitInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/interceptor/RepeatSubmitInterceptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/interceptor/impl/SameUrlDataInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/interceptor/impl/SameUrlDataInterceptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/manager/ShutdownManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/manager/ShutdownManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/manager/factory/AsyncFactory$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/manager/factory/AsyncFactory$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/manager/factory/AsyncFactory$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/manager/factory/AsyncFactory$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/manager/factory/AsyncFactory$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/manager/factory/AsyncFactory$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/manager/factory/AsyncFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/manager/factory/AsyncFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/shiro/realm/UserRealm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/shiro/realm/UserRealm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/shiro/service/LoginService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/shiro/service/LoginService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/shiro/service/PasswordService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/shiro/service/PasswordService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/shiro/session/OnlineSessionDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/shiro/session/OnlineSessionDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/shiro/session/OnlineSessionFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/shiro/session/OnlineSessionFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/shiro/web/filter/LogoutFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/shiro/web/filter/LogoutFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/shiro/web/filter/captcha/CaptchaValidateFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/shiro/web/filter/captcha/CaptchaValidateFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/shiro/web/filter/kickout/KickoutSessionFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/shiro/web/filter/kickout/KickoutSessionFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/shiro/web/filter/online/OnlineSessionFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/shiro/web/filter/online/OnlineSessionFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/shiro/web/filter/sync/SyncOnlineSessionFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/shiro/web/filter/sync/SyncOnlineSessionFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/shiro/web/session/OnlineWebSessionManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/shiro/web/session/OnlineWebSessionManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/shiro/web/session/SpringSessionValidationScheduler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/shiro/web/session/SpringSessionValidationScheduler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/web/controller/BaseController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/web/controller/BaseController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/web/domain/AjaxResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/web/domain/AjaxResult.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/web/service/PermissionService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/framework/web/service/PermissionService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/common/CommonController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/common/CommonController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/demo/controller/DemoOperateController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/demo/controller/DemoOperateController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/demo/controller/DemoTableController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/demo/controller/DemoTableController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/monitor/job/service/JobServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/monitor/job/service/JobServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/monitor/job/util/AbstractQuartzJob.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/monitor/job/util/AbstractQuartzJob.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/monitor/job/util/CronUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/monitor/job/util/CronUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/monitor/job/util/JobInvokeUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/monitor/job/util/JobInvokeUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/monitor/job/util/ScheduleUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/monitor/job/util/ScheduleUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/monitor/online/controller/UserOnlineController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/monitor/online/controller/UserOnlineController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/monitor/online/service/UserOnlineServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/monitor/online/service/UserOnlineServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/monitor/server/domain/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/monitor/server/domain/Server.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/config/service/ConfigServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/config/service/ConfigServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/dept/controller/DeptController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/dept/controller/DeptController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/dept/service/DeptServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/dept/service/DeptServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/dict/controller/DictTypeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/dict/controller/DictTypeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/dict/service/DictTypeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/dict/service/DictTypeServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/menu/controller/MenuController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/menu/controller/MenuController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/menu/service/MenuServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/menu/service/MenuServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/post/controller/PostController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/post/controller/PostController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/post/service/PostServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/post/service/PostServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/role/controller/RoleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/role/controller/RoleController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/role/service/RoleServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/role/service/RoleServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/user/controller/CaptchaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/user/controller/CaptchaController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/user/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/user/controller/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/user/controller/ProfileController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/user/controller/ProfileController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/user/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/user/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/user/service/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/system/user/service/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/tool/gen/domain/GenTableColumn.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/tool/gen/domain/GenTableColumn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/tool/gen/service/GenTableServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/tool/gen/service/GenTableServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/tool/gen/util/GenUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/tool/gen/util/GenUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/tool/gen/util/VelocityInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/tool/gen/util/VelocityInitializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/tool/gen/util/VelocityUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/tool/gen/util/VelocityUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ruoyi/project/wms/storemanage/store/domain/TStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ruoyi/project/wms/storemanage/store/domain/TStore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/ajax/libs/bootstrap-select/bootstrap-select.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/ajax/libs/bootstrap-select/bootstrap-select.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/ajax/libs/bootstrap-select/bootstrap-select.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/ajax/libs/bootstrap-select/bootstrap-select.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/ajax/libs/bootstrap-select/bootstrap-select.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/ajax/libs/bootstrap-select/bootstrap-select.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/ajax/libs/bootstrap-select/bootstrap-select.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/ajax/libs/bootstrap-select/bootstrap-select.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/ajax/libs/bootstrap-table/extensions/columns/bootstrap-table-fixed-columns.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/ajax/libs/bootstrap-table/extensions/columns/bootstrap-table-fixed-columns.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/ajax/libs/bootstrap-table/extensions/reorder/bootstrap-table-reorder.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/ajax/libs/bootstrap-table/extensions/reorder/bootstrap-table-reorder.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/ajax/libs/bootstrap-table/extensions/reorder/jquery.tablednd.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/ajax/libs/bootstrap-table/extensions/reorder/jquery.tablednd.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/ajax/libs/datapicker/bootstrap-datetimepicker.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/ajax/libs/datapicker/bootstrap-datetimepicker.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/ajax/libs/datapicker/bootstrap-datetimepicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/ajax/libs/datapicker/bootstrap-datetimepicker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/ajax/libs/datapicker/bootstrap-datetimepicker.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/ajax/libs/datapicker/bootstrap-datetimepicker.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/ajax/libs/flot/curvedLines.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/ajax/libs/flot/curvedLines.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/ajax/libs/flot/jquery.flot.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/ajax/libs/flot/jquery.flot.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/ajax/libs/flot/jquery.flot.pie.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/ajax/libs/flot/jquery.flot.pie.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/ajax/libs/flot/jquery.flot.resize.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/ajax/libs/flot/jquery.flot.resize.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/ajax/libs/flot/jquery.flot.spline.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/ajax/libs/flot/jquery.flot.spline.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/ajax/libs/flot/jquery.flot.symbol.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/ajax/libs/flot/jquery.flot.symbol.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/ajax/libs/flot/jquery.flot.tooltip.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/ajax/libs/flot/jquery.flot.tooltip.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/ajax/libs/jasny/jasny-bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/ajax/libs/jasny/jasny-bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/ajax/libs/jasny/jasny-bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/ajax/libs/jasny/jasny-bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/ajax/libs/jasny/jasny-bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/ajax/libs/jasny/jasny-bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/ajax/libs/jasny/jasny-bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/ajax/libs/jasny/jasny-bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/ajax/libs/jsonview/jquery.jsonview.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/ajax/libs/jsonview/jquery.jsonview.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/ajax/libs/jsonview/jquery.jsonview.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/ajax/libs/jsonview/jquery.jsonview.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/ajax/libs/layer/theme/moon/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/ajax/libs/layer/theme/moon/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/ajax/libs/report/echarts/echarts-all.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/ajax/libs/report/echarts/echarts-all.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/ajax/libs/report/peity/jquery.peity.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/ajax/libs/report/peity/jquery.peity.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/ajax/libs/report/sparkline/jquery.sparkline.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/ajax/libs/report/sparkline/jquery.sparkline.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/ajax/libs/select2/select2-bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/ajax/libs/select2/select2-bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/ajax/libs/select2/select2.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/ajax/libs/select2/select2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/ajax/libs/staps/jquery.steps.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/ajax/libs/staps/jquery.steps.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/ajax/libs/summernote/summernote-zh-CN.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/ajax/libs/summernote/summernote-zh-CN.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/ajax/libs/summernote/summernote.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/ajax/libs/summernote/summernote.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/ajax/libs/summernote/summernote.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/ajax/libs/summernote/summernote.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/jquery.contextMenu.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/jquery.contextMenu.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/skins.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/skins.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/jquery.contextMenu.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/js/jquery.contextMenu.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/jquery.i18n.properties.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/js/jquery.i18n.properties.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/jquery.tmpl.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/js/jquery.tmpl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/demo/form/cards.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/demo/form/cards.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/demo/form/summernote.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/demo/form/summernote.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/demo/form/timeline.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/demo/form/timeline.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/demo/report/echarts.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/demo/report/echarts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/demo/report/metrics.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/demo/report/metrics.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/demo/report/peity.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/demo/report/peity.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/demo/report/sparkline.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/demo/report/sparkline.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/demo/table/child.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/demo/table/child.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/demo/table/curd.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/demo/table/curd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/demo/table/reorder.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/demo/table/reorder.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/error/business.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/error/business.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/monitor/job/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/monitor/job/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/system/role/dataScope.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/system/role/dataScope.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/wms/instoremanage/instore/store.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/wms/instoremanage/instore/store.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/wms/instoremanage/minstore/minstore.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/wms/instoremanage/minstore/minstore.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangeListManager">
-    <list default="true" id="5ff97a5e-b438-4d92-8857-accf1aa84f80" name="Default Changelist" comment="" />
-    <option name="SHOW_DIALOG" value="false" />
-    <option name="HIGHLIGHT_CONFLICTS" value="true" />
-    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
-    <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="CodeInsightWorkspaceSettings">
-    <option name="optimizeImportsOnTheFly" value="true" />
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="liguiyang" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="$PROJECT_DIR$/../../../../apache-maven-3.6.3" />
+        <option name="mavenHome" value="E:\apache-maven-3.6.3" />
         <option name="userSettingsFile" value="E:\apache-maven-3.6.3\conf\settings.xml" />
-        <option name="localRepository" value="D:\apache-maven-3.6.3\maven_repository" />
-        <option name="userSettingsFile" value="D:\apache-maven-3.6.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="MavenRunner">
-    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
-  </component>
+  <component name="ProjectId" id="1mKYX23uKFE1XGT0F7wLK8Cd37T" />
   <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="settings.editor.selected.configurable" value="ics" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
@@ -92,95 +209,19 @@
       </method>
     </configuration>
   </component>
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
-  <component name="TaskManager">
-    <task id="LOCAL-00001" summary="123">
-      <created>1609233599531</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1609233599531</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
-    <servers />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="123" />
-    <option name="LAST_COMMIT_MESSAGE" value="123" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="257" y="0" key="CommitChangelistDialog2" timestamp="1609233598680">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="257" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1609233598680" />
-    <state width="1492" height="263" key="GridCell.Tab.0.bottom" timestamp="1609233557144">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state width="1492" height="263" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1609233557144" />
-    <state width="1492" height="263" key="GridCell.Tab.0.center" timestamp="1609233557144">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state width="1492" height="263" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1609233557144" />
-    <state width="1492" height="263" key="GridCell.Tab.0.left" timestamp="1609233557144">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state width="1492" height="263" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1609233557144" />
-    <state width="1492" height="263" key="GridCell.Tab.0.right" timestamp="1609233557144">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state width="1492" height="263" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1609233557144" />
-    <state width="1492" height="263" key="GridCell.Tab.1.bottom" timestamp="1609233557144">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state width="1492" height="263" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1609233557144" />
-    <state width="1492" height="263" key="GridCell.Tab.1.center" timestamp="1609233557144">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state width="1492" height="263" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1609233557144" />
-    <state width="1492" height="263" key="GridCell.Tab.1.left" timestamp="1609233557144">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state width="1492" height="263" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1609233557144" />
-    <state width="1492" height="263" key="GridCell.Tab.1.right" timestamp="1609233557144">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state width="1492" height="263" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1609233557144" />
-    <state x="403" y="192" key="MultipleFileMergeDialog" timestamp="1609233622134">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="403" y="192" key="MultipleFileMergeDialog/0.0.1536.864@0.0.1536.864" timestamp="1609233622134" />
-    <state x="431" y="219" key="git4idea.merge.GitPullDialog" timestamp="1609233607006">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="431" y="219" key="git4idea.merge.GitPullDialog/0.0.1536.864@0.0.1536.864" timestamp="1609233607006" />
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task id="LOCAL-00001" summary="合并主分支">
-      <created>1609231978284</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1609231978284</updated>
-    </task>
     <task active="true" id="Default" summary="Default task">
-      <changelist id="00cc9b85-a71f-4141-96fd-e923c5828275" name="Default Changelist" comment="合并主分支" />
-      <created>1609232032892</created>
+      <changelist id="6e6a5b8a-bd6c-4ee3-bf40-debdf593bc9c" name="Default Changelist" comment="" />
+      <created>1609243787910</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1609232032892</updated>
-      <workItem from="1609232037425" duration="117000" />
+      <updated>1609243787910</updated>
+      <workItem from="1609243792035" duration="74000" />
     </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="合并主分支" />
-    <option name="LAST_COMMIT_MESSAGE" value="合并主分支" />
   </component>
 </project>
